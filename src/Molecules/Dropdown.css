@@ -1,0 +1,11 @@
+.checkboxes{
+    width: 100%;
+}
+.checkboxContainer{
+    width: 15%;
+    height: 10% !important;
+    padding: 25px;
+}
+.dropdownItem{
+    justify-content: space-between;
+}

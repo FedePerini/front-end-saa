@@ -1,0 +1,16 @@
+:root{
+
+    --mainColor: #3A98B9;
+    --secondaryColor: #4DABD4;
+    --brightMainColor: #81D4FA;
+    --brightSecondaryColor: #B2EBF2;
+    --clearColor: #E0F7FA;
+
+}
+
+.pageContainer{
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clearColor);
+}
