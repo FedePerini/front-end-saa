@@ -1,0 +1,53 @@
+.infoCard{
+
+    background-color: var(--mainColor);
+    width: 400px;
+    height: min-content;
+    position: fixed;
+    bottom: 0px;
+    right: -100%;
+    transition: 850ms;
+    padding: 10px;
+    flex-direction: column;
+    max-width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.infoCard.active {
+    right: 0 !important;
+    transition: 350ms;
+}
+
+.close-button-wrapper{
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.close-button{
+    background-color: var(--mainColor) !important;
+}
+
+.infoCardTitle{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.classroomInfoContainer{
+
+    flex-direction: column;
+
+}
+
+
+@media (min-width: 768px) {
+    
+.infoCard{
+    top: 60px;
+    border-radius: 10px 0 0 10px;
+}
+    
+}

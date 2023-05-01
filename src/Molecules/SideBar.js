@@ -2,8 +2,9 @@
 import { Button, Flex, Text } from '@chakra-ui/react'
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa"
 import React, { useState } from 'react'
-import "./SideBar.css"
 import ClassroomCard from './ClassroomCard'
+import "./SideBar.css"
+
 
 
 export const SideBar = () => {
@@ -24,6 +25,12 @@ export const SideBar = () => {
                 </Flex>
 
                 <Flex className='classroomContainer'>
+                        <ClassroomCard></ClassroomCard>
+                        <ClassroomCard></ClassroomCard>
+                        <ClassroomCard></ClassroomCard>
+                        <ClassroomCard></ClassroomCard>
+                        <ClassroomCard></ClassroomCard>
+                        <ClassroomCard></ClassroomCard>
                         <ClassroomCard></ClassroomCard>
                         <ClassroomCard></ClassroomCard>
                         <ClassroomCard></ClassroomCard>
