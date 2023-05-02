@@ -5,11 +5,12 @@ import { WorkBench } from './Pages/Workbench'
 import { MainPage } from './Pages/MainPage'
 import { BuildingPage } from './Pages/BuildingPage'
 import { ClassroomPage } from './Pages/ClassroomPage'
+import { LoginPage } from './Pages/LoginPage'
 
 export const PageRoutes = () => 
     <Router>
         <Routes>
-            <Route exact={true} path="/" element={<WorkBench/>} />
+            <Route exact={true} path="/" element={<LoginPage/>} />
             <Route exact={true} path="/main" element={<MainPage/>} />
             <Route exact={true} path="/building/:id" element={<BuildingPage/>} />
             <Route exact={true} path="/classroom/:id" element={<ClassroomPage/>} />

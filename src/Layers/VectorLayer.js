@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable consistent-return */
+/* eslint-disable no-mixed-spaces-and-tabs */
 import { useContext, useEffect } from "react"
 import MapContext from "../Utils/MapContext"
 import OLVectorLayer from "ol/layer/Vector"

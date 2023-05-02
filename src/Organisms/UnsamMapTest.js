@@ -18,11 +18,12 @@ import { LineString, Point, Circle } from 'ol/geom'
 import Style from 'ol/style/Style'
 import Fill from 'ol/style/Fill'
 import Stroke from 'ol/style/Stroke'
+import Popup from 'ol/Overlay'
 
 import "./UnsamMap.css"
 import Icon from 'ol/style/Icon'
 
-export const UnsamMap = () => {
+export const UnsamMapTest = () => {
 
 
   const tornavias = [-58.5263602, -34.5786899]
@@ -123,4 +124,4 @@ return (
     </div>
 )}
 
-export default UnsamMap
+export default UnsamMapTest
