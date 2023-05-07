@@ -17,152 +17,136 @@ export const TornaviasSVG = (props) => {
   }
 
     return (
-<div className='imageContainer'>
-
-<div className='imageHolder'>
-
-<Box style={{
-            position: "fixed",
-            left: `${position.x}px`,
-            top: `${position.y}px`,
-          }}
-          className='cardInfo'></Box>
-
 <svg
   id="svg1"
+  width="210mm"
+  height="210mm"
   version="1.1"
   viewBox="0 0 230 230"
   xmlns="http://www.w3.org/2000/svg"
-  className='imageItself'
 >
-  <g id="layer1">
-    <g fill="none" stroke="#000">
-      <g>
+  <g id="g4" stroke="#000">
+    <g id="g3" fill="none">
+      <path
+        id="path1"
+        d="m95.228 199.33a93.68 87.072 0 0 1-70.209-63.2"
+        style={{ paintOrder: "stroke fill markers" }}
+      />
+      <path
+        id="path1-4"
+        d="m31.008 81.971c11.025-21.108 18.55-33.51 42.548-45.298 23.901-11.302 51.868-12.542 76.818-3.4053"
+        style={{ paintOrder: "stroke fill markers" }}
+      />
+      <path
+        id="path1-1"
+        d="m176.07 47.576a93.212 86.84 0 0 1 31.367 86.009 93.212 86.84 0 0 1-68.102 65.008"
+        strokeWidth=".99618"
+        style={{ paintOrder: "stroke fill markers" }}
+      />
+      <g id="g1">
         <path
-          id="path1"
-          d="m95.228 199.33a93.68 87.072 0 0 1-70.209-63.2"
+          id="path4"
+          d="m101.4 173.71a65.942 60.809 0 0 1-40.789-26.726"
           style={{ paintOrder: "stroke fill markers" }}
         />
         <path
-          id="path1-4"
-          d="m25.366 92.379a93.68 87.072 0 0 1 48.19-55.706 93.68 87.072 0 0 1 76.818-3.4053"
+          id="path4-9"
+          d="m56.026 138.84a65.942 60.809 0 0 1-3.6587-9.4542"
           style={{ paintOrder: "stroke fill markers" }}
         />
         <path
-          id="path1-1"
-          d="m176.07 47.576a93.212 86.84 0 0 1 31.367 86.009 93.212 86.84 0 0 1-68.102 65.008"
-          strokeWidth=".99618"
+          id="path4-3"
+          d="m177.43 136.5a65.942 60.809 0 0 1-44.986 36.985"
           style={{ paintOrder: "stroke fill markers" }}
         />
-        <g>
-          <path
-            id="path4"
-            d="m101.4 173.71a65.942 60.809 0 0 1-40.789-26.726"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path4-9"
-            d="m56.026 138.84a65.942 60.809 0 0 1-3.6587-9.4542"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path4-3"
-            d="m177.43 136.5a65.942 60.809 0 0 1-44.986 36.985"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path4-3-5"
-            d="m157.97 67.265a65.942 60.809 0 0 1 22.498 60.062"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path4-3-5-5"
-            d="m100.04 55.702a65.942 60.809 0 0 1 49.288 5.9304"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path4-3-5-5-6"
-            d="m54.419 91.704a65.942 60.809 0 0 1 35.856-33.212"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-        </g>
-        <g strokeWidth="1.0074">
-          <path
-            id="path5"
-            d="m104.57 161.04a51.871 48.015 0 0 1-32.301-21.056"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path5-1"
-            d="m68.589 133.62a51.871 48.015 0 0 1-2.8029-7.4152"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path5-5"
-            d="m164.21 131.79a51.871 48.015 0 0 1-34.931 28.989"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path5-5-1"
-            d="m154.88 82.467a51.871 48.015 0 0 1 11.743 42.075"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path5-5-1-1"
-            d="m103.11 67.767a51.871 48.015 0 0 1 32.065 1.8552"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-          <path
-            id="path5-5-1-1-2"
-            d="m67.97 96.593a51.871 48.015 0 0 1 27.675-26.343"
-            style={{ paintOrder: "stroke fill markers" }}
-          />
-        </g>
-      </g>
-      <g>
         <path
-          id="path2"
-          d="m98.155 186.74a79.74 74.213 0 0 1-59.248-54.213"
-          style={{ paintOrder: "stroke markers fill" }}
+          id="path4-3-5"
+          d="m157.97 67.265a65.942 60.809 0 0 1 22.498 60.062"
+          style={{ paintOrder: "stroke fill markers" }}
         />
         <path
-          id="path2-0"
-          d="m39.241 95.601a79.74 74.213 0 0 1 41.082-47.242 79.74 74.213 0 0 1 65.232-2.834"
-          style={{ paintOrder: "stroke markers fill" }}
+          id="path4-3-5-5"
+          d="m100.04 55.702a65.942 60.809 0 0 1 49.288 5.9304"
+          style={{ paintOrder: "stroke fill markers" }}
         />
         <path
-          id="path2-1"
-          d="m148.67 46.568a79.74 74.213 0 0 1 8.0041 3.8177"
-          style={{ paintOrder: "stroke markers fill" }}
-        />
-        <path
-          id="path2-4"
-          d="m167.38 57.187a79.74 74.213 0 0 1 26.867 73.441 79.74 74.213 0 0 1-58.141 55.596"
-          style={{ paintOrder: "stroke markers fill" }}
-        />
-        <path
-          id="path2-4-0"
-          d="m131.98 187.14a79.74 74.213 0 0 1-8.7382 1.2496"
-          style={{ paintOrder: "stroke markers fill" }}
+          id="path4-3-5-5-6"
+          d="m54.419 91.704a65.942 60.809 0 0 1 35.856-33.212"
+          style={{ paintOrder: "stroke fill markers" }}
         />
       </g>
+      <g id="g2" strokeWidth="1.0074">
+        <path
+          id="path5"
+          d="m104.57 161.04a51.871 48.015 0 0 1-32.301-21.056"
+          style={{ paintOrder: "stroke fill markers" }}
+        />
+        <path
+          id="path5-1"
+          d="m68.589 133.62a51.871 48.015 0 0 1-2.8029-7.4152"
+          style={{ paintOrder: "stroke fill markers" }}
+        />
+        <path
+          id="path5-5"
+          d="m164.21 131.79a51.871 48.015 0 0 1-34.931 28.989"
+          style={{ paintOrder: "stroke fill markers" }}
+        />
+        <path
+          id="path5-5-1"
+          d="m154.88 82.467a51.871 48.015 0 0 1 11.743 42.075"
+          style={{ paintOrder: "stroke fill markers" }}
+        />
+        <path
+          id="path5-5-1-1"
+          d="m103.11 67.767a51.871 48.015 0 0 1 32.065 1.8552"
+          style={{ paintOrder: "stroke fill markers" }}
+        />
+        <path
+          id="path5-5-1-1-2"
+          d="m67.97 96.593a51.871 48.015 0 0 1 27.675-26.343"
+          style={{ paintOrder: "stroke fill markers" }}
+        />
+      </g>
+      <path
+        id="path2"
+        d="m98.155 186.74a79.74 74.213 0 0 1-59.248-54.213"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path2-0"
+        d="m43.445 86.726c8.7001-17.093 16.566-28.799 36.878-38.367 20.312-9.5678 44.05-10.599 65.232-2.834"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path2-1"
+        d="m148.67 46.568a79.74 74.213 0 0 1 8.0041 3.8177"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path2-4"
+        d="m167.38 57.187a79.74 74.213 0 0 1 26.867 73.441 79.74 74.213 0 0 1-58.141 55.596"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path2-4-0"
+        d="m131.98 187.14a79.74 74.213 0 0 1-8.7382 1.2496"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
     </g>
     <circle
       id="path34"
       cx="129.49"
       cy="160.76"
       r=".044712"
-      stroke="#000"
       strokeWidth=".26458"
     />
-    <g fill="none" stroke="#000">
+    <g id="g7" fill="none" strokeWidth=".5">
       <path
         id="path35"
         d="m129.37 160.84 3.3913 12.498"
-        strokeWidth=".5"
         style={{ paintOrder: "stroke markers fill" }}
       />
-      <g strokeWidth=".5">
+      <g id="g6">
         <path
           id="path36"
           d="m142.69 170.23-5.715-11.775"
@@ -770,17 +754,19 @@ export const TornaviasSVG = (props) => {
         />
       </g>
     </g>
-    <ellipse
-      id="path160"
-      cx="116.48"
-      cy="114.2"
-      rx="21.548"
-      ry="20.574"
-      fill="#666"
-      strokeWidth={0}
-      style={{ paintOrder: "stroke markers fill" }}
-    />
-    <g fill="#999" stroke="#000" strokeWidth=".25">
+  </g>
+  <ellipse
+    id="path160"
+    cx="116.48"
+    cy="114.2"
+    rx="21.548"
+    ry="20.574"
+    fill="#666"
+    strokeWidth={0}
+    style={{ paintOrder: "stroke markers fill" }}
+  />
+  <g id="g5" stroke="#000">
+    <g id="g8" fill="#999" strokeWidth=".25">
       <path
         id="path3"
         d="m124.19 196.24 9.5477-1.2878"
@@ -812,7 +798,7 @@ export const TornaviasSVG = (props) => {
         style={{ paintOrder: "stroke markers fill" }}
       />
     </g>
-    <g stroke="#000" strokeWidth=".38">
+    <g id="g9" strokeWidth=".38">
       <path
         id="path13"
         d="m131.88 186.65 0.1695 0.84336"
@@ -844,1097 +830,1508 @@ export const TornaviasSVG = (props) => {
         style={{ paintOrder: "stroke markers fill" }}
       />
     </g>
-    <g fill="#92ff92">
-      <g stroke="#fff">
-        <g strokeWidth=".50778">
-          <path
-            id="path152"
-            transform="scale(.26458)"
-            d="m572.78 711.79c-4.9461-10.257-9.2719-19.221-9.6129-19.919l-0.62001-1.2698 5.1935-2.2237c5.6488-2.4186 20.922-9.8412 26.106-12.687 2.9891-1.6409 3.2736-1.7304 3.7426-1.1786 1.0582 1.2452 25.096 35.736 25.099 36.014 0.0104 0.80808-22.311 12.155-33.454 17.006-3.6743 1.5996-6.8562 2.908-7.0711 2.9076-0.21481-3.8e-4 -4.4374-8.3929-9.3835-18.65z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title173">AULA 14</title>
-          </path>
-          <path
-            id="path161"
-            transform="scale(.26458)"
-            d="m612.02 690.98c-7.0334-10.035-12.739-18.29-12.679-18.343 0.0602-0.0535 1.9391-1.178 4.1753-2.4989 8.5576-5.0547 20.486-13.041 27.4-18.345 1.5556-1.1933 3.0095-2.281 3.2308-2.417 0.37427-0.23005 30 32.047 30.362 33.08 0.36415 1.0382-20.08 15.348-33.631 23.541-2.9378 1.776-5.5056 3.2292-5.7063 3.2292s-6.1194-8.2106-13.153-18.246z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title172">AULA 13</title>
-          </path>
-          <path
-            id="path162"
-            transform="scale(.26458)"
-            d="m651.64 664.53c-8.1805-9.0295-14.917-16.557-14.97-16.728-0.0528-0.17115 1.8132-1.8795 4.1466-3.7964 7.2454-5.9519 12.438-10.668 20.542-18.656l7.8143-7.7024 35.519 28.736-4.5375 4.5961c-7.2755 7.3695-13.02 12.882-18.348 17.606-5.8036 5.1459-14.555 12.363-14.991 12.363-0.16625 0-6.9954-7.3878-15.176-16.417z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title171">AULA 12</title>
-          </path>
-          <path
-            id="path163"
-            transform="scale(.26458)"
-            d="m693.8 634.58c-6.7808-5.482-14.758-11.939-17.727-14.349l-5.3982-4.3816 3.6649-4.1322c7.872-8.8758 16.568-20.111 23.038-29.765 1.8896-2.8196 3.4746-5.1686 3.5222-5.2201 0.10174-0.10995 39.471 22.128 39.919 22.549 0.6745 0.63322-13.374 20.346-21.918 30.755-4.1863 5.1-11.334 13.319-12.23 14.062-0.46156 0.38295-2.3744-1.0316-12.871-9.5175z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title170">AULA 11</title>
-          </path>
-          <path
-            id="path164"
-            transform="scale(.26458)"
-            d="m722.49 586.15c-10.889-6.1847-19.932-11.295-20.095-11.356-0.16291-0.0613 0.4967-1.3899 1.4658-2.9525 5.1561-8.3134 12.658-22.605 16.686-31.787 1.0236-2.3334 1.9815-4.3763 2.1287-4.5397 0.37295-0.41392 43.479 15.679 43.479 16.233 0 1.3976-9.7299 21.52-14.775 30.557-2.902 5.1977-8.4601 14.546-8.8478 14.882-0.13294 0.115-9.1512-4.8511-20.041-11.036z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title49">Laboratorio de Computacion IV</title>
-          </path>
-          <path
-            id="path165"
-            transform="scale(.26458)"
-            d="m745.29 541.1c-11.57-4.3414-21.179-7.9521-21.354-8.0239-0.17481-0.0717 0.64164-2.5886 1.8143-5.593 2.7303-6.995 6.3816-18.107 8.57-26.081 1.6162-5.889 1.7636-6.2482 2.542-6.1952 1.4636 0.0996 44.658 8.687 44.932 8.9328 0.54561 0.48959-4.7531 18.88-8.4627 29.371-3.6199 10.238-5.828 15.559-6.4395 15.519-0.31078-0.0204-10.031-3.5891-21.601-7.9305z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title47">Laboratorio de Termodinamica</title>
-          </path>
-          <path
-            id="path166"
-            transform="scale(.26458)"
-            d="m502.04 651.69c-0.21155-0.7292-2.8885-10.565-5.9487-21.857l-5.5641-20.531 3.1945-0.81048c4.1092-1.0426 15.262-4.6671 19.793-6.4327 1.9345-0.75374 3.6348-1.2508 3.7786-1.1046 0.32138 0.32677 19.751 40.367 19.751 40.703 0 0.29071-7.9274 3.3184-14.496 5.5363-4.4776 1.512-19.15 5.8224-19.819 5.8224-0.16765 0-0.47791-0.59662-0.68945-1.3258z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title177">AULA 17</title>
-          </path>
-          <path
-            id="path167"
-            transform="scale(.26458)"
-            d="m529.38 620.35-9.9628-20.544 0.94723-0.43706c9.5392-4.4014 12.925-6.0331 16.323-7.867 2.5982-1.4021 4.22-2.0846 4.5003-1.8938 0.24101 0.16409 6.1699 8.7151 13.175 19.002 12.142 17.829 12.704 18.727 12.036 19.195-2.2663 1.5874-22.238 11.31-26.349 12.828-0.6416 0.23681-1.6301-1.6422-10.67-20.283z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title176">AULA 16</title>
-          </path>
-          <path
-            id="path168"
-            transform="scale(.26458)"
-            d="m559.14 611.56c-5.4447-8.0101-11.279-16.588-12.966-19.063l-3.0662-4.499 3.5965-2.2004c4.9544-3.0312 10.319-6.6292 14.782-9.9151 2.0686-1.5228 3.8364-2.7687 3.9285-2.7687 0.29085 0 31.908 33.677 31.908 33.986 0 0.98244-24.887 17.844-27.86 18.876-0.2415 0.0838-4.6863-6.1232-10.324-14.417z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title175">Ingenieria en Energia</title>
-          </path>
-          <path
-            id="path169"
-            transform="scale(.26458)"
-            d="m583.43 588.65c-8.7858-9.3196-15.962-17.066-15.948-17.214 0.0144-0.14813 1.7951-1.7012 3.957-3.4513 4.8263-3.9069 16.94-15.886 21.629-21.39 4.0478-4.7507 9.8173-12.339 12.947-17.028 1.2117-1.8155 2.2517-3.3597 2.3111-3.4316 0.13517-0.16351 41.155 22.181 41.807 22.773 0.39216 0.35627-0.0338 1.1946-2.4062 4.7357-7.9155 11.815-16.752 22.445-28.106 33.811-6.6488 6.6558-16.038 15.164-19.289 17.479l-0.92785 0.66069z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title174">AULA 15</title>
-          </path>
-          <path
-            id="path171"
-            transform="scale(.26458)"
-            d="m758.9 497.19c-12.251-2.4374-22.297-4.4499-22.325-4.4721-0.0281-0.0222 0.3285-1.711 0.79248-3.7527 2.1066-9.2704 4.2123-22.796 5.1327-32.969l0.4398-4.8614 1.2625-2e-3c2.7118-5e-3 37.907 1.0713 41.704 1.2757l4.0254 0.21672-0.24086 3.586c-0.74361 11.071-3.2046 27.84-5.9354 40.444-0.99149 4.5761-1.1599 5.0349-1.8366 5.0024-0.40977-0.0196-10.768-2.03-23.019-4.4674z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title46">Laboratorio de Electronica II</title>
-          </path>
-          <path
-            id="path172"
-            transform="scale(.26458)"
-            d="m766.68 449.57-23.335-0.6828v-15.934c0-10.379-0.16237-17.703-0.46578-21.007-0.25618-2.7903-0.41528-5.1163-0.35356-5.1689 0.2906-0.24772 46.288-4.1575 46.494-3.9519 0.92993 0.92993 1.9488 35.763 1.2839 43.893l-0.28919 3.5355z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title45">Laboratorio de Neuroingenieria</title>
-          </path>
-          <path
-            id="path173"
-            transform="scale(.26458)"
-            d="m741.78 401.02c-1.1775-9.7218-3.3797-22.065-5.4718-30.669-0.47262-1.9438-0.82138-3.5721-0.77502-3.6184 0.14671-0.14671 44.46-11.055 44.909-11.055 1.4482 0 9.4267 43.222 8.2042 44.444-0.193 0.193-43.007 4.2311-45.874 4.3267-0.46571 0.0155-0.65446-0.63633-0.99259-3.428z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title44">Laboratiorio de Biologia</title>
-          </path>
-          <path
-            id="path174"
-            transform="scale(.26458)"
-            d="m733.67 360.19c-2.5791-9.3569-7.7463-23.941-11.844-33.429l-1.2664-2.9323 1.4958-0.64091c14.953-6.407 41.047-17.016 41.277-16.783 1.0421 1.0568 8.6822 20.567 11.958 30.536 2.169 6.6011 4.6548 15.094 4.6462 15.875-5e-3 0.45322-4.4052 1.6477-22.185 6.0226-12.199 3.0015-22.338 5.5087-22.533 5.5715-0.19445 0.0628-0.89114-1.8361-1.5482-4.2198z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title43">Laboratorio de Biologia</title>
-          </path>
-          <path
-            id="path175"
-            transform="scale(.26458)"
-            d="m717.73 317.73c-1.0063-2.1742-3.4084-6.9301-5.338-10.569-11.279-21.27-25.403-41.239-41.657-58.899l-3.3529-3.643 0.85677-0.82286c0.47122-0.45257 8.2533-6.9907 17.293-14.529l16.437-13.706 3.4807 3.6764c17.706 18.702 35.601 43.769 48.662 68.168 3.2657 6.1002 8.2599 16.304 8.0679 16.484-0.092 0.0861-40.165 16.836-41.866 17.5-0.69035 0.26923-0.90925-0.0407-2.5839-3.6589z"
-            style={{ paintOrder: "stroke markers fill" }}
-          >
-            <title id="title34">Laboratorio de Quimica</title>
-          </path>
-        </g>
-        <path
-          id="path176"
-          d="m163.91 94.492c-0.19882-0.44146-0.70638-1.4229-1.1279-2.181-1.7985-3.2344-3.6899-5.9378-6.0282-8.6159-0.5166-0.59167-0.93948-1.1001-0.93975-1.1298-7.9e-4 -0.08922 9.0859-8.1545 9.2009-8.1667 0.24454-0.0258 3.1208 3.272 4.8529 5.564 2.1028 2.7827 4.2687 6.2919 5.7933 9.3867 0.43976 0.89267 0.52394 1.1322 0.41865 1.1911-0.22014 0.12319-11.646 4.7542-11.73 4.7542-0.0429 0-0.24074-0.3612-0.43957-0.80266z"
-          strokeWidth=".13435"
-          style={{ paintOrder: "stroke markers fill" }}
-          onClick={() => {
-            const path = document.getElementById("path176")
-            const pathBBox = path.getBoundingClientRect()
-            setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-          }}
-        >
-          <title id="title41">AULA 9</title>
-        </path>
-        <g strokeWidth=".50778">
-          <path
-            id="path177"
-            transform="scale(.26458)"
-            d="m635.5 413.85c-0.0605-0.2029-0.2124-1.403-0.33766-2.667-0.44068-4.4468-2.2827-14.512-3.7325-20.394-2.0959-8.5038-7.1298-23.44-9.2882-27.56l-0.51712-0.98695 22.476-9.1235c12.362-5.0179 22.592-9.0015 22.734-8.8523 0.41579 0.43755 3.9479 9.0238 6.0746 14.767 5.1452 13.894 8.9745 29.34 11.027 44.476 0.45349 3.3449 0.75997 6.1491 0.68109 6.2316-0.36639 0.38296-49.014 4.4518-49.117 4.1081z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path177")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title42">AULA 10</title>
-          </path>
-          <path
-            id="path178"
-            transform="scale(.26458)"
-            d="m655.65 473.66-23.353-4.6336 0.79741-3.9404c0.89007-4.3984 2.0222-11.95 2.5949-17.31 0.5706-5.3397 0.82191-20.944 0.4242-26.34-0.19351-2.6251-0.30507-4.8222-0.24792-4.8823 0.3038-0.31974 48.697-4.3692 48.957-4.0966 0.1662 0.1743 0.49882 3.8171 0.73917 8.0951 0.91062 16.209-0.31485 34.312-3.4226 50.558-1.3159 6.8794-1.438 7.2535-2.3549 7.2153-0.43002-0.0179-11.291-2.1177-24.134-4.6662z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path178")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title48">Laboratorio de Fisica</title>
-          </path>
-          <path
-            id="path179"
-            transform="scale(.26458)"
-            d="m308.12 736.42c-0.38891-0.16104-4.1277-1.6312-8.3085-3.2669-18.198-7.12-36.9-16.332-53.917-26.557-9.0904-5.4621-28.461-18.599-28.461-19.302 0-0.29547 30.689-34.989 30.95-34.989 0.0869 0 1.7311 1.1708 3.6539 2.6018 19.286 14.353 45.342 28.649 69.164 37.948 2.7224 1.0626 5.0833 2.0612 5.2465 2.219 0.24012 0.23215-15.675 38.048-17.19 40.845-0.33213 0.61319-0.5919 0.7278-1.1375 0.50187z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path179")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title184">AULA 21</title>
-          </path>
-          <path
-            id="path180"
-            transform="scale(.26458)"
-            d="m377.6 653.15c-31.449-8.0728-55.744-18.475-80.257-34.361-4.797-3.1089-13.081-8.9664-13.081-9.2492 0-0.21167 26.348-28.596 29.52-31.802l1.8954-1.9154 5.2402 3.5524c20.919 14.181 44.534 24.565 68.567 30.149l3.2227 0.74878-5.2592 21.107c-2.8926 11.609-5.3402 21.465-5.4392 21.902-0.21568 0.9534-0.18035 0.95445-4.4091-0.13107z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path180")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title178">AULA 18</title>
-          </path>
-          <path
-            id="path181"
-            transform="scale(.26458)"
-            d="m278.42 605.21c-13.467-10.904-24.55-21.735-34.84-34.049-3.6502-4.3683-11.301-14.469-11.296-14.913 4e-3 -0.30128 40.29-24.318 40.428-24.101 0.92546 1.4561 7.1658 9.5331 9.868 12.772 6.8968 8.2674 19.061 19.922 28.647 27.448 2.3602 1.8528 2.3912 1.8986 1.7678 2.6127-1.8036 2.0659-30.646 32.962-30.827 33.022-0.11701 0.039-1.8037-1.2172-3.7483-2.7916z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path181")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title179">AULA 19</title>
-          </path>
-          <path
-            id="path182"
-            transform="scale(.26458)"
-            d="m211.72 520.51c-3.2398-7.4235-4.5256-10.599-6.4728-15.987-2.3899-6.6132-4.6041-13.734-4.3495-13.989 0.1719-0.1719 44.618-10.756 45.634-10.867 0.5265-0.0575 1.0018 1.0152 2.7156 6.1284 1.1426 3.4089 3.2008 8.8859 4.5737 12.171 1.373 3.2852 2.4439 6.0254 2.3799 6.0895-0.064 0.064-9.3302 3.9129-20.592 8.553-11.261 4.6401-21.079 8.6916-21.818 9.0032l-1.343 0.56658z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path182")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title180">AULA 20</title>
-          </path>
-          <path
-            id="path183"
-            transform="scale(.26458)"
-            d="m213.72 684.72c-5.7595-4.5029-10.651-8.4862-15.201-12.379-5.6721-4.8529-20.344-18.521-20.307-18.917 0.0126-0.13088 8.0868-7.2612 17.943-15.845l17.92-15.607 6.0104 5.8864c6.7818 6.6419 14.028 13.063 21.256 18.838 2.6987 2.1558 4.9518 3.9597 5.0068 4.0086 0.1091 0.0969-30.522 34.691-30.953 34.957-0.14497 0.0896-0.89921-0.33405-1.6761-0.94144z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path183")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title183">AULA 22</title>
-          </path>
-          <path
-            id="path184"
-            transform="scale(.26458)"
-            d="m171.6 646.54c-10.951-11.825-20.31-23.35-29.202-35.962l-1.6242-2.3037 20.622-12.634c11.342-6.9487 20.701-12.634 20.797-12.634 0.0964 0 1.8719 2.3873 3.9456 5.3051 7.6039 10.699 13.087 17.427 24.508 30.069l1.7732 1.9628-17.795 15.53c-9.7875 8.5414-17.926 15.566-18.085 15.609-0.15945 0.0437-2.3824-2.18-4.9399-4.9415z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path184")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title182">AULA 23</title>
-          </path>
-          <path
-            id="path185"
-            transform="scale(.26458)"
-            d="m136.01 601.11c-4.4095-6.8637-7.5871-12.146-11.21-18.634-4.0983-7.3398-9.9281-19.032-9.6204-19.296 0.13994-0.11968 10.198-4.5592 22.352-9.8656s22.199-9.705 22.325-9.7748c0.12511-0.0697 1.9871 3.412 4.1377 7.7373 4.2964 8.6408 8.647 16.393 13.694 24.401l3.2916 5.223-1.306 0.81616c-1.6754 1.047-39.767 24.334-40.073 24.498-0.12649 0.0679-1.7416-2.2294-3.589-5.1052z"
-            style={{ paintOrder: "stroke markers fill" }}
-            onClick={() => {
-              const path = document.getElementById("path185")
-              const pathBBox = path.getBoundingClientRect()
-              setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-            }}
-          >
-            <title id="title181">AULA 24</title>
-          </path>
-        </g>
-      </g>
-      <g stroke="#000">
-        <path
-          id="path187"
-          d="m24.567 136.42 41.697-10.114"
-          style={{ paintOrder: "stroke markers fill" }}
-        />
-        <path
-          id="path188"
-          d="m54.185 91.047 14.397 5.3631"
-          strokeWidth="1.0575"
-          style={{ paintOrder: "stroke markers fill" }}
-        />
-        <path
-          id="path189"
-          d="m25.4 91.877 40.415 12.039"
-          style={{ paintOrder: "stroke markers fill" }}
-        />
-      </g>
-    </g>
-    <path
-      id="path190"
-      transform="scale(.26458)"
-      d="m95.522 504.96c-5.7972-23.667-8.3852-43.738-8.7871-68.147-0.26639-16.181 0.42481-28.994 2.3744-44.017 2.1398-16.488 7.7929-42.663 9.1937-42.568 0.28347 0.0192 32.972 9.7056 72.64 21.525 39.669 11.82 72.624 21.631 73.234 21.803l1.1095 0.31214-0.65762 2.9111c-2.2694 10.046-3.5688 22.84-3.5813 35.261-0.0148 14.742 1.6271 28.472 4.9572 41.454 0.38658 1.507 0.62734 2.74 0.53502 2.74-0.0923 0-33.624 8.114-74.516 18.031-40.891 9.9172-74.428 18.031-74.527 18.031-0.09841 0-0.9876-3.3013-1.976-7.3362z"
-      fill="#d1d1d1"
-      stroke="#000"
-      strokeWidth="1.3363"
-      style={{ paintOrder: "stroke markers fill" }}
-    />
-    <g fill="#92ff92" stroke="#fff" strokeWidth={0}>
-      
+    <g id="g13" fill="#92ff92">
       <path
-        id="path203"
-        transform="scale(.26458)"
-        d="m545.75 168.35c-3.3075-1.2146-14.054-4.5787-19-5.9478-3.5078-0.97097-14.109-3.6154-17.375-4.334-0.85181-0.18744-0.98781-0.30519-0.91771-0.79461 0.0864-0.6034 10.468-42.94 10.653-43.441 0.12594-0.34204 1.6798-0.0202 10.617 2.1992 14.084 3.4975 36.012 10.375 35.818 11.234-0.0441 0.19573-3.8103 9.7215-8.3694 21.168-5.9792 15.013-8.3953 20.809-8.6698 20.8-0.20935-7e-3 -1.4494-0.40497-2.7556-0.88467z"
+        id="path187"
+        d="m24.567 136.42 41.697-10.114"
         style={{ paintOrder: "stroke markers fill" }}
-        onClick={() => {
-          const path = document.getElementById("path203")
-          const pathBBox = path.getBoundingClientRect()
-          setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-        }}
-      >
-        <title id="title28">AULA 1</title>
-      </path>
-
+      />
       <path
-        id="path204"
-        transform="scale(.26458)"
-        d="m506.88 259.58c-5.1851-1.7733-9.9457-3.178-16-4.7211-5.4114-1.3792-6.2392-1.6531-6.1694-2.0408 0.20033-1.1125 11.396-41.72 11.552-41.902 0.44728-0.51924 16.13 3.527 26.559 6.8524 4.1261 1.3157 4.664 1.5474 4.4651 1.924-0.12438 0.23545-4.1298 9.4281-8.901 20.428-4.7711 11-8.7492 20.071-8.8401 20.157-0.0909 0.0865-1.2903-0.22746-2.6653-0.6977z"
+        id="path188"
+        d="m54.185 91.047 14.397 5.3631"
+        strokeWidth="1.0575"
         style={{ paintOrder: "stroke markers fill" }}
-        onClick={() => {
-          const path = document.getElementById("path204")
-          const pathBBox = path.getBoundingClientRect()
-          setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-        }}
-      >
-        <title id="title30">AULA 2</title>
-      </path>
+      />
       <path
-        id="path205"
-        transform="scale(.26458)"
-        d="m505.38 157.22c-1.8565-0.48709-13.569-2.5234-19.125-3.3249-6.9726-1.0059-15.868-1.9804-22.188-2.4303l-4.3125-0.30709-5e-3 -1.1408c-5e-3 -1.2614 2.037-44.36 2.1061-44.442 0.0238-0.0283 2.1764 0.11333 4.7835 0.31464 12.531 0.96758 24.357 2.4301 36.24 4.4817 4.9631 0.85687 13.928 2.5998 14.062 2.7338 0.0557 0.0557-10.559 43.635-10.758 44.167-0.0299 0.08-0.39186 0.0568-0.80436-0.0514z"
-        style={{ paintOrder: "stroke markers fill" }}
-        onClick={() => {
-          const path = document.getElementById("path205")
-          const pathBBox = path.getBoundingClientRect()
-          setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-        }}
-      >
-        <title id="title29">AULA 3</title>
-      </path>
-      <path
-        id="path206"
-        transform="scale(.26458)"
-        d="m477.75 251.98c-5.2802-1.027-13.431-2.1601-18.875-2.6239-6.2835-0.5354-5.8736-0.42726-5.8816-1.5519-0.0112-1.5816 1.7666-40.368 1.9002-41.458l0.12571-1.0249 1.1778 0.0898c0.64781 0.0494 3.4772 0.26352 6.2875 0.4758 5.2857 0.39925 11.705 1.0901 16.265 1.7504 6.1772 0.89443 14.938 2.463 15.195 2.7208 0.0542 0.0542-2.4988 9.5473-5.6734 21.096-3.1746 11.548-5.772 21.063-5.772 21.145 0 0.24413-0.94839 0.12058-4.75-0.6188z"
-        style={{ paintOrder: "stroke markers fill" }}
-        onClick={() => {
-          const path = document.getElementById("path206")
-          const pathBBox = path.getBoundingClientRect()
-          setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-        }}
-      >
-        <title id="title31">AULA 4</title>
-      </path>
-      <path
-        id="path207"
-        transform="scale(.26458)"
-        d="m411.64 151.45c-0.16617-0.514-5.6352-45.037-5.5434-45.129 0.13147-0.13147 9.0237-0.7767 15.154-1.0996 9.3054-0.49014 37.842-0.26768 38.341 0.29888 0.10001 0.1135-2.0526 45.274-2.1633 45.385-0.037 0.037-4.0016-0.0606-8.8101-0.21686-10.817-0.35152-26.936 0.0763-35.433 0.94053-1.0651 0.10832-1.4678 0.0618-1.5456-0.17875z"
-        style={{ paintOrder: "stroke markers fill" }}
-        onClick={() => {
-          const path = document.getElementById("path207")
-          const pathBBox = path.getBoundingClientRect()
-          setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-        }}
-      >
-        <title id="title32">AULA 5</title>
-      </path>
-      <path
-        id="path208"
-        transform="scale(.26458)"
-        d="m364.65 158.81c-0.81133-2.643-11.861-43.934-11.779-44.016 0.38675-0.38675 15.351-3.4323 23.505-4.7838 8.6155-1.428 18.476-2.7306 25.75-3.4016l1.75-0.16145 2.7185 22.088c1.4952 12.148 2.772 22.383 2.8374 22.743 0.11803 0.65095 0.10441 0.65708-1.8435 0.82967-10.333 0.91554-27.836 3.7395-38.948 6.2841-2.0547 0.4705-3.7627 0.85546-3.7956 0.85546-0.0329 0-0.12032-0.19688-0.19419-0.4375z"
-        style={{ paintOrder: "stroke markers fill" }}
-        onClick={() => {
-          const path = document.getElementById("path208")
-          const pathBBox = path.getBoundingClientRect()
-          setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-        }}
-      >
-        <title id="title33">AULA 7</title>
-      </path>
-      <path
-        id="path211"
-        transform="scale(.26458)"
-        d="m333.56 144.06c-4.5726-11.787-8.3132-21.512-8.3125-21.61 3e-3 -0.44919 25.095-7.5209 25.361-7.1476 0.20141 0.28254 11.899 44.051 11.829 44.261-0.0483 0.14493-2.3646 0.86107-5.1472 1.5914-2.7826 0.73036-7.3503 2.0078-10.15 2.8387s-5.1304 1.5081-5.1785 1.5048c-0.0481-3e-3 -3.8288-9.6501-8.4014-21.438z"
-        style={{ paintOrder: "stroke markers fill" }}
-        onClick={() => {
-          const path = document.getElementById("path211")
-          const pathBBox = path.getBoundingClientRect()
-          setNewPosition({x:pathBBox.x + pathBBox.width/2, y:pathBBox.y + pathBBox.height/2})
-        }}
-      >
-        <title id="title35">AULA 6 BIS</title>
-      </path>
-    </g>
-    <g strokeWidth={0}>
-      <g>
-        <text
-          id="text215"
-          x="155.65778"
-          y="185.0307"
-          fill="#ffa467"
-          fontSize="3.175px"
-          stroke="#ffffff"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan215" x="155.65778" y="185.0307" strokeWidth={0} />
-        </text>
-        <path
-          id="path215"
-          transform="scale(.26458)"
-          d="m293.16 276.17-16.034-16.569 5.4539-4.0333c14.685-10.86 32.263-20.899 49.434-28.234 6.3171-2.6982 7.8535-3.1233 8.3638-2.3143 0.34383 0.54508 4.5079 9.5446 9.2534 19.999l8.6283 19.008-12.432 6.1646c-12.051 5.9759-23.598 12.995-31.953 19.424-2.2326 1.7179-4.1992 3.1235-4.3702 3.1235s-7.526-7.456-16.345-16.569z"
-          fill="#92ff92"
-          stroke="#fff"
-          style={{ paintOrder: "stroke markers fill" }}
-        >
-          <title id="title40">AULA 8</title>
-        </path>
-        <path
-          id="path216"
-          transform="scale(.26458)"
-          d="m309.57 152.7c-5.3219-11.441-9.4844-20.976-9.25-21.19 0.52279-0.47639 6.6722-2.8332 15.775-6.0459l6.8486-2.4172 0.98214 2.5995c0.54017 1.4297 4.2646 11.028 8.2764 21.329s7.2942 18.866 7.2942 19.034-1.2938 0.70821-2.875 1.2022c-2.2361 0.69855-10.429 3.6594-16.792 6.0688-0.35712 0.13521-4.3318-7.8382-10.259-20.581z"
-          fill="#92ff92"
-          stroke="#fff"
-          style={{ paintOrder: "stroke markers fill" }}
-        >
-          <title id="title36">AULA 6</title>
-        </path>
-      </g>
-      <path
-        id="path217"
-        transform="scale(.26458)"
-        d="m235 352.94c-11.688-4.3518-22.2-8.2711-23.361-8.7096l-2.1108-0.79731 2.9478-5.8804c13.002-25.937 32.461-50.668 55.524-70.567 7.7613-6.6966 5.9469-6.9612 14.705 2.1442 4.1498 4.3143 11.415 11.862 16.144 16.772l8.5992 8.9276-3.6661 3.0832c-5.4628 4.5943-15.447 14.71-20.878 21.153-9.1138 10.812-15.982 21.129-22.625 33.989l-4.029 7.7987z"
-        fill="#ff964f"
+        id="path189"
+        d="m25.4 91.877 40.415 12.039"
         style={{ paintOrder: "stroke markers fill" }}
       />
     </g>
-    <g fill="#000000" stroke="#ffffff" strokeWidth={0}>
-      <g fontSize="3.175px">
-        <text
-          id="text217"
-          x="153.2599"
-          y="187.12656"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217"
-            x="153.2599"
-            y="187.12656"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A14
-          </tspan>
-        </text>
-        <text
-          id="text217-2"
-          x="164.31969"
-          y="180.5448"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8"
-            x="164.31969"
-            y="180.5448"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A13
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5"
-          x="132.60767"
-          y="167.18179"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5"
-            x="132.60767"
-            y="167.18179"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A17
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-5"
-          x="87.193977"
-          y="165.04697"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-0"
-            x="87.193977"
-            y="165.04697"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A18
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-5-5"
-          x="69.580513"
-          y="185.25099"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-0-7"
-            x="69.580513"
-            y="185.25099"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A21
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-5-5-8"
-          x="53.24823"
-          y="174.23524"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-0-7-0"
-            x="53.24823"
-            y="174.23524"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A22
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-5-5-8-0"
-          x="43.719116"
-          y="163.85182"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-0-7-0-2"
-            x="43.719116"
-            y="163.85182"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A23
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-5-5-8-0-6"
-          x="35.642521"
-          y="153.25883"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-0-7-0-2-5"
-            x="35.642521"
-            y="153.25883"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A24
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-5-5-5"
-          x="69.618492"
-          y="152.06523"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-0-7-9"
-            x="69.618492"
-            y="152.06523"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A19
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-5-5-5-8"
-          x="57.79702"
-          y="133.24034"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-0-7-9-6"
-            x="57.79702"
-            y="133.24034"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A20
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0"
-          x="140.61984"
-          y="163.6776"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5"
-            x="140.61984"
-            y="163.6776"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A16
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2"
-          x="157.64981"
-          y="151.24063"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2"
-            x="157.64981"
-            y="151.24063"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A15
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3"
-          x="169.9917"
-          y="102.20565"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99"
-            x="169.9917"
-            y="102.20565"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A10
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2"
-          x="163.47607"
-          y="86.417725"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9"
-            x="163.47607"
-            y="86.417725"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A9
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2-2"
-          x="139.53581"
-          y="38.292843"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1"
-            x="139.53581"
-            y="38.292843"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A1
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2-2-9"
-          x="131.8065"
-          y="63.364277"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1-0"
-            x="131.8065"
-            y="63.364277"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A2
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2-2-9-3"
-          x="122.65155"
-          y="61.420773"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1-0-14"
-            x="122.65155"
-            y="61.420773"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A4
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2-2-9-3-7"
-          x="112.57254"
-          y="35.207432"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1-0-14-1"
-            x="112.57254"
-            y="35.207432"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A5
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2-2-9-3-7-6"
-          x="99.213226"
-          y="36.120396"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1-0-14-1-0"
-            x="99.213226"
-            y="36.120396"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A7
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2-2-9-3-7-6-8"
-          x="82.591331"
-          y="69.257568"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1-0-14-1-0-3"
-            x="82.591331"
-            y="69.257568"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A8
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-3-2-2-9-3-7-6-52"
-          x="82.684875"
-          y="40.165283"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1-0-14-1-0-5"
-            x="82.684875"
-            y="40.165283"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A6
-          </tspan>
-        </text>
-      </g>
-      <text
-        id="text217-2-5-0-2-3-2-2-9-3-7-6-5"
-        transform="scale(.97877 1.0217)"
-        x="90.415298"
-        y="36.767822"
-        fontSize="1.776px"
-        style={{ paintOrder: "stroke markers fill" }}
-        xmlSpace="preserve"
-      >
-        <tspan
-          id="tspan217-8-5-5-2-99-9-1-0-14-1-0-2"
-          x="90.415298"
-          y="36.767822"
-          fill="#000000"
-          strokeWidth={0}
-        >
-          A6 BIS
-        </tspan>
-      </text>
-      <g fontSize="3.175px">
-        <text
-          id="text217-2-5-0-2-3-2-2-9-2"
-          x="126.76752"
-          y="35.789627"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-99-9-1-0-1"
-            x="126.76752"
-            y="35.789627"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A3
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4"
-          x="174.55574"
-          y="172.38638"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-9"
-            x="174.55574"
-            y="172.38638"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A12
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3"
-          x="183.57175"
-          y="162.70634"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan
-            id="tspan217-8-5-5-2-9-7"
-            x="183.57175"
-            y="162.70634"
-            fill="#000000"
-            strokeWidth={0}
-          >
-            A11
-          </tspan>
-        </text>
-      </g>
-      <g fontSize="1.2742px">
-        <text
-          id="text217-2-5-0-2-4-3-3"
-          transform="scale(1.0063 .99369)"
-          x="188.42282"
-          y="149.74419"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan217-8-5-5-2-9-7-4" x="188.42282" y="149.74419">
-            Lab. de
-          </tspan>
-          <tspan id="tspan220" x="188.42282" y="151.33696">
-            Computacion IV
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3-3-2"
-          transform="scale(1.0063 .99369)"
-          x="193.68211"
-          y="138.0117"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan217-8-5-5-2-9-7-4-5" x="193.68211" y="138.0117">
-            Lab. de
-          </tspan>
-          <tspan id="tspan220-3" x="193.68211" y="139.60448">
-            Termodinamica
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3-3-2-9"
-          transform="scale(1.0063 .99369)"
-          x="197.06442"
-          y="126.02027"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan217-8-5-5-2-9-7-4-5-9" x="197.06442" y="126.02027">
-            Lab. de
-          </tspan>
-          <tspan id="tspan220-3-0" x="197.06442" y="127.61304">
-            Electronica II
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3-3-2-9-5"
-          transform="scale(1.0063 .99369)"
-          x="196.7576"
-          y="113.23967"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan220-3-0-8" x="196.7576" y="113.23967">
-            Lab. de
-          </tspan>
-          <tspan id="tspan221" x="196.7576" y="114.83244">
-            Neuroingenieria
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3-3-2-9-5-2"
-          transform="scale(1.0063 .99369)"
-          x="197.54736"
-          y="101.26748"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan220-3-0-8-0" x="197.54736" y="101.26748">
-            Lab. de
-          </tspan>
-          <tspan id="tspan221-2" x="197.54736" y="102.86025">
-            Biologia
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3-3-2-9-5-2-1"
-          transform="scale(1.0063 .99369)"
-          x="195.03314"
-          y="89.219086"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan220-3-0-8-0-6" x="195.03314" y="89.219086">
-            Lab. de
-          </tspan>
-          <tspan id="tspan221-2-3" x="195.03314" y="90.811859">
-            Biologia
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3-3-2-9-5-2-1-2"
-          transform="scale(1.0063 .99369)"
-          x="185.7654"
-          y="72.11171"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan220-3-0-8-0-6-0" x="185.7654" y="72.11171">
-            Lab. de
-          </tspan>
-          <tspan id="tspan221-2-3-4" x="185.7654" y="73.704483">
-            Quimica
-          </tspan>
-        </text>
-        <text
-          id="text217-2-5-0-2-4-3-3-2-9-0"
-          transform="scale(1.0063 .99369)"
-          x="170.92624"
-          y="117.4333"
-          style={{ paintOrder: "stroke markers fill" }}
-          xmlSpace="preserve"
-        >
-          <tspan id="tspan217-8-5-5-2-9-7-4-5-9-1" x="170.92624" y="117.4333">
-            Lab. de
-          </tspan>
-          <tspan id="tspan220-3-0-2" x="170.92624" y="119.02607">
-            Fisica
-          </tspan>
-        </text>
-      </g>
-      <text
-        id="text217-2-5-0-3"
-        transform="scale(1.0608 .94268)"
-        x="139.0459"
-        y="167.93153"
-        fontSize="1.0826px"
-        style={{ paintOrder: "stroke markers fill" }}
-        xmlSpace="preserve"
-      >
-        <tspan id="tspan217-8-5-5-0" x="139.0459" y="167.93153">
-          Ingenieria
-        </tspan>
-        <tspan id="tspan218" x="139.0459" y="169.28474">
-          en Energia
-        </tspan>
-      </text>
-    </g>
+    <path
+      id="path190"
+      d="m25.273 133.6c-1.5338-6.2618-2.2186-11.572-2.3249-18.03-0.07048-4.2812 0.1124-7.6712 0.62822-11.646 0.56615-4.3624 2.0618-11.288 2.4325-11.263 0.075 0.0051 8.7237 2.5679 19.219 5.6951 10.496 3.1273 19.215 5.7231 19.376 5.7686l0.29355 0.0826-0.17399 0.77022c-0.60044 2.658-0.94423 6.043-0.94754 9.3294-0.0039 3.9004 0.4305 7.5331 1.3116 10.968 0.10228 0.39872 0.16598 0.72495 0.14156 0.72495s-8.8962 2.1468-19.715 4.7706c-10.819 2.6239-19.692 4.7706-19.718 4.7706-0.02604 0-0.2613-0.87346-0.52281-1.941z"
+      fill="#d1d1d1"
+      strokeWidth=".35356"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+  </g>
+  <text
+    id="text215"
+    x="155.65778"
+    y="185.0307"
+    fill="#ffa467"
+    fontSize="3.175px"
+    stroke="#ffffff"
+    strokeWidth={0}
+    style={{ paintOrder: "stroke markers fill" }}
+    xmlSpace="preserve"
+  >
+    <tspan id="tspan215" x="155.65778" y="185.0307" strokeWidth={0} />
+  </text>
+  <path
+    id="path217"
+    d="m62.176 93.381c-3.0924-1.1514-5.8737-2.1884-6.1809-2.3044l-0.55848-0.21095 0.77993-1.5558c3.4401-6.8624 8.5885-13.406 14.691-18.671 2.0535-1.7718 1.5734-1.8418 3.8906 0.56731 1.098 1.1415 3.0202 3.1384 4.2714 4.4375l2.2752 2.3621-0.96998 0.81575c-1.4453 1.2156-4.087 3.892-5.5239 5.5967-2.4113 2.8606-4.2285 5.5903-5.9861 8.9928l-1.066 2.0634z"
+    fill="#808080"
+    strokeWidth={0}
+    style={{ paintOrder: "stroke markers fill" }}
+  />
+  <g id="g261">
+    <title id="title262">AULA 14</title>
+    <path
+      id="path152"
+      d="m151.55 188.33c-1.3086-2.7138-2.4532-5.0855-2.5434-5.2702l-0.16404-0.33596 1.3741-0.58835c1.4946-0.63991 5.5355-2.6038 6.9071-3.3567 0.79086-0.43415 0.86613-0.45783 0.99022-0.31183 0.27998 0.32945 6.6399 9.455 6.6407 9.5286 3e-3 0.2138-5.903 3.216-8.8513 4.4994-0.97214 0.42322-1.814 0.7694-1.8709 0.76929-0.0568-1e-4 -1.174-2.2206-2.4827-4.9344z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title173">AULA 14</title>
+    </path>
     <text
-      id="text1"
-      x="123.75915"
-      y="62.76825"
-      fill="none"
+      id="text217"
+      x="153.2599"
+      y="187.12656"
+      fill="#000000"
       fontSize="3.175px"
       stroke="#ffffff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
       xmlSpace="preserve"
     >
-      <tspan id="tspan1" x="123.75915" y="62.76825" strokeWidth={0} />
+      <tspan
+        id="tspan217"
+        x="153.2599"
+        y="187.12656"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A14
+      </tspan>
     </text>
-    <g fill="#808080" strokeWidth={0}>
+  </g>
+  <g id="g263">
+    <title id="title264">AULA 13</title>
+    <path
+      id="path161"
+      d="m161.93 182.82c-1.8609-2.6551-3.3705-4.8392-3.3546-4.8532 0.0159-0.0142 0.51305-0.31168 1.1047-0.66116 2.2642-1.3374 5.4202-3.4504 7.2495-4.8537 0.41159-0.31572 0.79626-0.60351 0.85481-0.63949 0.099-0.0609 7.9374 8.479 8.0332 8.7523 0.0963 0.27469-5.3128 4.0608-8.8981 6.2285-0.77729 0.4699-1.4567 0.85438-1.5098 0.85438s-1.6191-2.1724-3.48-4.8275z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title172">AULA 13</title>
+    </path>
+    <text
+      id="text217-2"
+      x="164.31969"
+      y="180.5448"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8"
+        x="164.31969"
+        y="180.5448"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A13
+      </tspan>
+    </text>
+  </g>
+  <g id="g260">
+    <title id="title261">AULA 17</title>
+    <path
+      id="path166"
+      d="m132.83 172.42c-0.056-0.19293-0.76424-2.7953-1.5739-5.7829l-1.4722-5.4321 0.8452-0.21443c1.0872-0.27585 4.038-1.2348 5.2368-1.702 0.51183-0.19942 0.96169-0.33093 0.99974-0.29225 0.085 0.0864 5.2257 10.68 5.2257 10.769 0 0.0769-2.0974 0.87798-3.8354 1.4648-1.1847 0.40005-5.0667 1.5405-5.2437 1.5405-0.0444 0-0.12645-0.15785-0.18242-0.35078z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title177">AULA 17</title>
+    </path>
+    <text
+      id="text217-2-5"
+      x="132.60767"
+      y="167.18179"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5"
+        x="132.60767"
+        y="167.18179"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A17
+      </tspan>
+    </text>
+  </g>
+  <g id="g258">
+    <title id="title259">AULA 18</title>
+    <path
+      id="path180"
+      d="m99.905 172.81c-8.3208-2.1359-14.749-4.8881-21.234-9.0912-1.2692-0.82255-3.461-2.3723-3.461-2.4472 0-0.056 6.9712-7.5659 7.8104-8.4142l0.50148-0.50678 1.3865 0.93989c5.5347 3.752 11.783 6.4994 18.141 7.9768l0.85266 0.19811-1.3915 5.5845c-0.76533 3.0715-1.4129 5.6792-1.4391 5.7948-0.0571 0.25225-0.0477 0.25253-1.1666-0.0347z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title178">AULA 18</title>
+    </path>
+    <text
+      id="text217-2-5-5"
+      x="86.788132"
+      y="164.37056"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-0"
+        x="86.788132"
+        y="164.37056"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A18
+      </tspan>
+    </text>
+  </g>
+  <g id="g259">
+    <title id="title260">AULA 21</title>
+    <path
+      id="path179"
+      d="m81.522 194.84c-0.1029-0.0426-1.0921-0.43158-2.1983-0.86435-4.8148-1.8838-9.763-4.3211-14.265-7.0264-2.4051-1.4452-7.5302-4.9209-7.5302-5.1069 0-0.0782 8.1197-9.2574 8.1888-9.2574 0.02299 0 0.45802 0.30977 0.96675 0.68839 5.1027 3.7975 11.997 7.58 18.299 10.04 0.72029 0.28114 1.3449 0.54535 1.3881 0.5871 0.06353 0.0614-4.1473 10.067-4.5481 10.807-0.08787 0.16224-0.1566 0.19256-0.30096 0.13279z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title184">AULA 21</title>
+    </path>
+    <text
+      id="text217-2-5-5-5"
+      x="69.580513"
+      y="185.25099"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-0-7"
+        x="69.580513"
+        y="185.25099"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A21
+      </tspan>
+    </text>
+  </g>
+  <g id="g257">
+    <title id="title257">AULA 22</title>
+    <path
+      id="path183"
+      d="m56.546 181.16c-1.5238-1.1914-2.818-2.2453-4.0219-3.2752-1.5007-1.284-5.3826-4.9003-5.3728-5.0051 0.0033-0.0346 2.1396-1.9212 4.7474-4.1923l4.7413-4.1293 1.5902 1.5574c1.7943 1.7573 3.7115 3.4562 5.6239 4.9842 0.71402 0.57039 1.3101 1.0477 1.3247 1.0606 0.02886 0.0256-8.0755 9.1785-8.1895 9.2489-0.03836 0.0237-0.23791-0.0884-0.44346-0.24908z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title183">AULA 22</title>
+    </path>
+    <text
+      id="text217-2-5-5-5-8"
+      x="53.24823"
+      y="174.23524"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-0-7-0"
+        x="53.24823"
+        y="174.23524"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A22
+      </tspan>
+    </text>
+  </g>
+  <g id="g255">
+    <title id="title255">AULA 23</title>
+    <path
+      id="path184"
+      d="m45.402 171.06c-2.8974-3.1287-5.3736-6.1779-7.7263-9.5148l-0.42973-0.60952 5.4562-3.3427c3.0009-1.8385 5.4771-3.3427 5.5025-3.3427 0.02551 0 0.49527 0.63163 1.0439 1.4036 2.0118 2.8307 3.4626 4.6108 6.4843 7.9557l0.46915 0.51931-4.7082 4.1089c-2.5896 2.2599-4.7429 4.1184-4.7849 4.1298-0.04219 0.0116-0.63034-0.57678-1.307-1.3074z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title182">AULA 23</title>
+    </path>
+    <text
+      id="text217-2-5-5-5-8-0"
+      x="43.719116"
+      y="163.85182"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-0-7-0-2"
+        x="43.719116"
+        y="163.85182"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A23
+      </tspan>
+    </text>
+  </g>
+  <g id="g253">
+    <title id="title253">AULA 24</title>
+    <path
+      id="path185"
+      d="m35.986 159.04c-1.1667-1.816-2.0074-3.2136-2.9659-4.9302-1.0843-1.942-2.6268-5.0355-2.5454-5.1053 0.03702-0.0317 2.6982-1.2063 5.9139-2.6102 3.2157-1.404 5.8734-2.5677 5.9067-2.5862 0.0331-0.0184 0.52575 0.90274 1.0948 2.0471 1.1367 2.2862 2.2878 4.3373 3.6232 6.456l0.87089 1.3819-0.34554 0.21594c-0.44328 0.27701-10.522 6.4383-10.603 6.4817-0.03347 0.018-0.46079-0.58985-0.94958-1.3507z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title181">AULA 24</title>
+    </path>
+    <text
+      id="text217-2-5-5-5-8-0-6"
+      x="35.642521"
+      y="153.25883"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-0-7-0-2-5"
+        x="35.642521"
+        y="153.25883"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A24
+      </tspan>
+    </text>
+  </g>
+  <g id="g256">
+    <title id="title258">AULA 19</title>
+    <path
+      id="path181"
+      d="m73.664 160.13c-3.5631-2.885-6.4954-5.7506-9.218-9.0087-0.96577-1.1558-2.99-3.8282-2.9887-3.9457 0.0011-0.0797 10.66-6.4341 10.696-6.3766 0.24486 0.38526 1.8959 2.5223 2.6109 3.3792 1.8248 2.1874 5.0432 5.271 7.5794 7.2622 0.62446 0.49021 0.63266 0.50233 0.46772 0.69127-0.4772 0.54659-8.1083 8.7211-8.1562 8.737-0.03096 0.0103-0.47722-0.32205-0.99173-0.7386z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title179">AULA 19</title>
+    </path>
+    <text
+      id="text217-2-5-5-5-5"
+      x="69.618492"
+      y="152.06523"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-0-7-9"
+        x="69.618492"
+        y="152.06523"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A19
+      </tspan>
+    </text>
+  </g>
+  <g id="g254">
+    <title id="title254">AULA 20</title>
+    <path
+      id="path182"
+      d="m56.017 137.72c-0.85719-1.9641-1.1974-2.8043-1.7126-4.2298-0.63232-1.7497-1.2182-3.6338-1.1508-3.7012 0.04548-0.0455 11.805-2.8458 12.074-2.8752 0.1393-0.0152 0.26506 0.26861 0.71849 1.6215 0.30231 0.90192 0.84687 2.351 1.2101 3.2202 0.36327 0.8692 0.64661 1.5942 0.62967 1.6112-0.01693 0.0169-2.4686 1.0353-5.4482 2.263-2.9794 1.2277-5.5771 2.2996-5.7726 2.3821l-0.35533 0.14991z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title180">AULA 20</title>
+    </path>
+    <text
+      id="text217-2-5-5-5-5-8"
+      x="57.79702"
+      y="133.24034"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-0-7-9-6"
+        x="57.79702"
+        y="133.24034"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A20
+      </tspan>
+    </text>
+  </g>
+  <g id="g262">
+    <title id="title263">AULA 16</title>
+    <path
+      id="path167"
+      d="m140.06 164.13-2.636-5.4355 0.25062-0.11564c2.5239-1.1645 3.4197-1.5962 4.3187-2.0814 0.68743-0.37096 1.1165-0.55154 1.1907-0.50106 0.0638 0.0434 1.6324 2.3058 3.4858 5.0276 3.2125 4.7172 3.3612 4.9548 3.1845 5.0786-0.59962 0.42-5.8837 2.9924-6.9714 3.394-0.16976 0.0627-0.43129-0.4345-2.8231-5.3665z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title176">AULA 16</title>
+    </path>
+    <text
+      id="text217-2-5-0"
+      x="140.61984"
+      y="163.6776"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5"
+        x="140.61984"
+        y="163.6776"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A16
+      </tspan>
+    </text>
+  </g>
+  <g id="g266">
+    <title id="title267">AULA 15</title>
+    <path
+      id="path169"
+      d="m154.36 155.75c-2.3246-2.4658-4.2232-4.5153-4.2195-4.5545 4e-3 -0.0392 0.47495-0.45011 1.0469-0.91315 1.2769-1.0337 4.482-4.2031 5.7226-5.6594 1.071-1.2569 2.5975-3.2647 3.4255-4.5053 0.32059-0.48035 0.59575-0.88891 0.61147-0.90794 0.0358-0.0433 10.889 5.8686 11.061 6.0253 0.10375 0.0943-9e-3 0.31606-0.63664 1.253-2.0943 3.126-4.4322 5.9385-7.4363 8.9457-1.7591 1.761-4.2433 4.0121-5.1035 4.6246l-0.24549 0.17481z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title174">AULA 15</title>
+    </path>
+    <text
+      id="text217-2-5-0-2"
+      x="157.64981"
+      y="151.24063"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2"
+        x="157.64981"
+        y="151.24063"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A15
+      </tspan>
+    </text>
+  </g>
+  <g id="g274">
+    <title id="title274">AULA 10</title>
+    <g id="g273">
       <path
-        id="path9"
-        transform="scale(.26458)"
-        d="m111.16 554.23c-4.2099-9.6374-5.5392-13.136-9.7535-25.672-3.4446-10.246-3.6876-11.364-2.5763-11.842 1.77-0.7623 44.652-11.139 46.032-11.139 0.8535 1.1e-4 1.7762 1.9952 3.5156 7.6014 1.2971 4.1807 4.0813 11.958 6.1872 17.282 2.1058 5.3244 3.8288 9.9772 3.8288 10.34 0 0.47772-35.402 16.484-43.57 19.699-0.44557 0.1754-2.042-2.5561-3.664-6.2694z"
+        id="path177"
+        d="m168.14 109.5c-0.016-0.0537-0.0562-0.3712-0.0893-0.70563-0.11659-1.1765-0.60395-3.8396-0.98754-5.3958-0.55454-2.2499-1.8864-6.2018-2.4575-7.2918l-0.13682-0.26113 5.9467-2.4139c3.2707-1.3276 5.9774-2.3816 6.015-2.3421 0.11001 0.11577 1.0445 2.3875 1.6072 3.9071 1.3613 3.6761 2.3745 7.7628 2.9175 11.767 0.11998 0.88499 0.20107 1.6269 0.1802 1.6488-0.0969 0.10133-12.968 1.1779-12.995 1.0869z"
+        fill="#92ff92"
+        stroke="#fff"
+        strokeWidth=".13435"
+        style={{ paintOrder: "stroke markers fill" }}
+      >
+        <title id="title42">AULA 10</title>
+      </path>
+      <text
+        id="text217-2-5-0-2-3"
+        x="169.9917"
+        y="102.20565"
+        fill="#000000"
+        fontSize="3.175px"
+        stroke="#ffffff"
+        strokeWidth={0}
+        style={{ paintOrder: "stroke markers fill" }}
+        xmlSpace="preserve"
+      >
+        <tspan
+          id="tspan217-8-5-5-2-99"
+          x="169.9917"
+          y="102.20565"
+          fill="#000000"
+          strokeWidth={0}
+        >
+          A10
+        </tspan>
+      </text>
+    </g>
+  </g>
+  <g id="g277">
+    <title id="title277">AULA 9</title>
+    <path
+      id="path176"
+      d="m163.91 94.492c-0.19882-0.44146-0.70638-1.4229-1.1279-2.181-1.7985-3.2344-3.6899-5.9378-6.0282-8.6159-0.5166-0.59167-0.93948-1.1001-0.93975-1.1298-7.9e-4 -0.08922 9.0859-8.1545 9.2009-8.1667 0.24454-0.0258 3.1208 3.272 4.8529 5.564 2.1028 2.7827 4.2687 6.2919 5.7933 9.3867 0.43976 0.89267 0.52394 1.1322 0.41865 1.1911-0.22014 0.12319-11.646 4.7542-11.73 4.7542-0.0429 0-0.24074-0.3612-0.43957-0.80266z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title41">AULA 9</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2"
+      x="163.47607"
+      y="86.417725"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9"
+        x="163.47607"
+        y="86.417725"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A9
+      </tspan>
+    </text>
+  </g>
+  <g id="g280">
+    <title id="title280">AULA 1</title>
+    <path
+      id="path203"
+      d="m144.39 44.407c-0.87509-0.32136-3.7184-1.2114-5.027-1.5737-0.92809-0.2569-3.733-0.95656-4.5971-1.1467-0.22537-0.04959-0.26136-0.08075-0.24281-0.21024 0.0229-0.15965 2.7696-11.361 2.8186-11.494 0.0333-0.0905 0.44444-0.0053 2.809 0.58186 3.7263 0.92537 9.528 2.745 9.4767 2.9723-0.0117 0.05179-1.0081 2.5721-2.2144 5.6006-1.582 3.9721-2.2212 5.5056-2.2939 5.5033-0.0554-0.0019-0.38348-0.10715-0.72908-0.23407z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title28">AULA 1</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2"
+      x="139.53581"
+      y="38.292843"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1"
+        x="139.53581"
+        y="38.292843"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A1
+      </tspan>
+    </text>
+  </g>
+  <g id="g279">
+    <title id="title279">AULA 2</title>
+    <path
+      id="path204"
+      d="m134.11 68.544c-1.3719-0.46918-2.6314-0.84084-4.2333-1.2491-1.4318-0.36491-1.6508-0.43738-1.6323-0.53996 0.053-0.29434 3.0152-11.038 3.0564-11.086 0.11834-0.13738 4.2677 0.93317 7.027 1.813 1.0917 0.34811 1.234 0.40941 1.1814 0.50905-0.0329 0.0623-1.0927 2.4945-2.355 5.4048-1.2623 2.9104-2.3149 5.3104-2.3389 5.3331-0.0241 0.02289-0.34138-0.06018-0.70518-0.1846z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title30">AULA 2</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9"
+      x="131.8065"
+      y="63.364277"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0"
+        x="131.8065"
+        y="63.364277"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A2
+      </tspan>
+    </text>
+  </g>
+  <g id="g281">
+    <title id="title281">AULA 4</title>
+    <path
+      id="path206"
+      d="m126.4 66.534c-1.397-0.27172-3.5536-0.57152-4.9939-0.69423-1.6625-0.14166-1.554-0.11304-1.5562-0.4106-3e-3 -0.41846 0.46741-10.681 0.50276-10.969l0.0333-0.27117 0.31162 0.02376c0.1714 0.01307 0.92 0.06972 1.6636 0.12589 1.3985 0.10563 3.0969 0.28842 4.3034 0.46312 1.6344 0.23665 3.9523 0.65166 4.0203 0.71987 0.0144 0.01434-0.66113 2.526-1.5011 5.5816-0.83994 3.0554-1.5272 5.5728-1.5272 5.5945 0 0.06459-0.25092 0.0319-1.2568-0.16372z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title31">AULA 4</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9-3"
+      x="122.65155"
+      y="61.420773"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0-14"
+        x="122.65155"
+        y="61.420773"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A4
+      </tspan>
+    </text>
+  </g>
+  <g id="g283">
+    <title id="title283">AULA 5</title>
+    <path
+      id="path207"
+      d="m108.91 39.935c-0.044-0.136-1.491-11.916-1.4667-11.94 0.0348-0.03478 2.3875-0.2055 4.0094-0.29093 2.462-0.12968 10.012-0.07082 10.144 0.07908 0.0265 0.03003-0.54308 11.979-0.57237 12.008-0.01 0.0098-1.0587-0.01603-2.331-0.05738-2.862-0.093-7.1267 0.02019-9.3749 0.24884-0.2818 0.02866-0.38835 0.01635-0.40893-0.04729z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title32">AULA 5</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9-3-7"
+      x="112.57254"
+      y="35.207432"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0-14-1"
+        x="112.57254"
+        y="35.207432"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A5
+      </tspan>
+    </text>
+  </g>
+  <g id="g284">
+    <title id="title284">AULA 7</title>
+    <path
+      id="path208"
+      d="m96.479 41.883c-0.21466-0.69928-3.1382-11.624-3.1165-11.646 0.10233-0.10233 4.0616-0.90812 6.219-1.2657 2.2795-0.37782 4.8884-0.72246 6.8129-0.9l0.46301-0.04272 0.71926 5.844c0.3956 3.2141 0.73342 5.9221 0.75072 6.0173 0.0312 0.17223 0.0276 0.17385-0.48775 0.21952-2.7339 0.24223-7.3648 0.9894-10.305 1.6626-0.54363 0.12448-0.99554 0.22634-1.0042 0.22634-0.0087 0-0.03183-0.05209-0.05138-0.11575z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title33">AULA 7</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9-3-7-6"
+      x="99.213226"
+      y="36.120396"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0-14-1-0"
+        x="99.213226"
+        y="36.120396"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A7
+      </tspan>
+    </text>
+  </g>
+  <g id="g287">
+    <title id="title287">AULA 8</title>
+    <path
+      id="path215"
+      d="m77.564 73.069-4.2423-4.3838 1.443-1.0671c3.8854-2.8733 8.5361-5.5295 13.079-7.4702 1.6714-0.71389 2.0779-0.82636 2.2129-0.61232 0.09097 0.14422 1.1927 2.5253 2.4483 5.2913l2.2829 5.0291-3.2893 1.631c-3.1885 1.5811-6.2436 3.4382-8.4541 5.1392-0.5907 0.45452-1.111 0.82642-1.1563 0.82642-0.04524 0-1.9912-1.9727-4.3246-4.3838z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title40">AULA 8</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9-3-7-6-8"
+      x="82.591331"
+      y="69.257568"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0-14-1-0-3"
+        x="82.591331"
+        y="69.257568"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A8
+      </tspan>
+    </text>
+  </g>
+  <g id="g286">
+    <title id="title286">AULA 6</title>
+    <path
+      id="path216"
+      d="m81.906 40.401c-1.4081-3.0271-2.5094-5.5498-2.4474-5.6064 0.13832-0.12604 1.7653-0.74961 4.1737-1.5996l1.812-0.63954 0.25985 0.68778c0.14292 0.37827 1.1283 2.9178 2.1898 5.6432 1.0614 2.7254 1.9299 4.9916 1.9299 5.036 0 0.04445-0.34231 0.18738-0.76067 0.31808-0.59163 0.18482-2.7593 0.9682-4.4428 1.6057-0.09449 0.03577-1.1461-2.0738-2.7143-5.4453z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title36">AULA 6</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9-3-7-6-52"
+      x="82.684875"
+      y="40.165283"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0-14-1-0-5"
+        x="82.684875"
+        y="40.165283"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A6
+      </tspan>
+    </text>
+  </g>
+  <g id="g285">
+    <title id="title285">AULA 6 BIS</title>
+    <path
+      id="path211"
+      d="m88.253 37.98c-1.2098-3.1186-2.1995-5.6916-2.1993-5.7176 7.93e-4 -0.11885 6.6396-1.9899 6.71-1.8911 0.05329 0.07475 3.1482 11.655 3.1297 11.711-0.01278 0.03835-0.62563 0.22782-1.3618 0.42105-0.73622 0.19324-1.9447 0.53122-2.6855 0.75106-0.74074 0.21984-1.3574 0.39901-1.3701 0.39814-0.01273-7.94e-4 -1.013-2.5532-2.2228-5.6721z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title35">AULA 6 BIS</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9-3-7-6-5"
+      transform="scale(.89006 1.1235)"
+      x="99.152931"
+      y="33.688847"
+      fill="#000000"
+      fontSize="2.0729px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0-14-1-0-2"
+        x="99.152931"
+        y="33.688847"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A6 BIS
+      </tspan>
+    </text>
+  </g>
+  <g id="g282">
+    <title id="title282">AULA 3</title>
+    <path
+      id="path205"
+      d="m133.71 41.462c-0.49119-0.12887-3.5901-0.66764-5.0601-0.8797-1.8448-0.26614-4.1984-0.52397-5.8705-0.64301l-1.141-0.08125-1e-3 -0.30183c-1e-3 -0.33374 0.53895-11.737 0.55723-11.758 6e-3 -0.0075 0.57584 0.02998 1.2656 0.08325 3.3155 0.256 6.4444 0.64296 9.5884 1.1858 1.3131 0.22671 3.6851 0.68786 3.7205 0.72331 0.0147 0.01474-2.7937 11.545-2.8464 11.686-8e-3 0.02117-0.10367 0.01503-0.21281-0.0136z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title29">AULA 3</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-3-2-2-9-2"
+      x="126.76752"
+      y="35.789627"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-99-9-1-0-1"
+        x="126.76752"
+        y="35.789627"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A3
+      </tspan>
+    </text>
+  </g>
+  <g id="g265">
+    <title id="title266">AULA 12</title>
+    <path
+      id="path162"
+      d="m172.41 175.82c-2.1644-2.389-3.9467-4.3806-3.9608-4.4259-0.014-0.0453 0.47974-0.49727 1.0971-1.0044 1.917-1.5748 3.2908-2.8225 5.435-4.936l2.0675-2.0379 9.3976 7.603-1.2005 1.216c-1.925 1.9498-3.4448 3.4083-4.8545 4.6582-1.5355 1.3615-3.851 3.271-3.9663 3.271-0.044 0-1.8508-1.9547-4.0153-4.3436z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title171">AULA 12</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4"
+      x="174.55574"
+      y="172.38638"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-9"
+        x="174.55574"
+        y="172.38638"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A12
+      </tspan>
+    </text>
+  </g>
+  <g id="g267">
+    <title id="title268">AULA 11</title>
+    <path
+      id="path163"
+      d="m183.57 167.9c-1.7941-1.4504-3.9047-3.1588-4.6902-3.7965l-1.4282-1.1593 0.96966-1.0933c2.0828-2.3484 4.3836-5.321 6.0954-7.8752 0.49995-0.74601 0.91931-1.3675 0.93191-1.3811 0.0269-0.0291 10.443 5.8546 10.562 5.966 0.17846 0.16754-3.5385 5.3832-5.7991 8.1372-1.1076 1.3494-2.9988 3.5239-3.2358 3.7205-0.12212 0.10132-0.62822-0.27295-3.4054-2.5181z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title170">AULA 11</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3"
+      x="183.57175"
+      y="162.70634"
+      fill="#000000"
+      fontSize="3.175px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan
+        id="tspan217-8-5-5-2-9-7"
+        x="183.57175"
+        y="162.70634"
+        fill="#000000"
+        strokeWidth={0}
+      >
+        A11
+      </tspan>
+    </text>
+  </g>
+  <g id="g268">
+    <title id="title269">LABORATORIO DE COMPUTACION IV</title>
+    <path
+      id="path164"
+      d="m191.16 155.08c-2.881-1.6364-5.2736-2.9884-5.3167-3.0046s0.13142-0.36774 0.38782-0.78118c1.3642-2.1996 3.349-5.9808 4.4148-8.4102 0.27083-0.61737 0.52427-1.1579 0.56321-1.2011 0.0987-0.10952 11.504 4.1484 11.504 4.2949 0 0.36978-2.5743 5.6938-3.9092 8.0848-0.76781 1.3752-2.2384 3.8486-2.341 3.9375-0.0352 0.0304-2.4212-1.2835-5.3024-2.9199z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title49">Laboratorio de Computacion IV</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3"
+      transform="scale(.94434 1.0589)"
+      x="200.00206"
+      y="140.05003"
+      fill="#000000"
+      fontSize="1.5477px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan217-8-5-5-2-9-7-4" x="200.00206" y="140.05003">
+        Lab. de
+      </tspan>
+      <tspan id="tspan220" x="200.00206" y="141.98473">
+        Computacion IV
+      </tspan>
+    </text>
+  </g>
+  <g id="g269">
+    <title id="title270">LABORATORIO DE TERMODINAMICA</title>
+    <path
+      id="path165"
+      d="m197.19 143.16c-3.0612-1.1486-5.6035-2.104-5.6498-2.123s0.16976-0.68489 0.48002-1.4798c0.72239-1.8507 1.6884-4.7908 2.2674-6.9005 0.42762-1.5581 0.46662-1.6532 0.67257-1.6391 0.38724 0.0264 11.816 2.2984 11.888 2.3634 0.14435 0.12954-1.2576 4.9953-2.2391 7.771-0.95775 2.7088-1.542 4.1166-1.7038 4.106-0.0822-5e-3 -2.654-0.94961-5.7152-2.0982z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title47">Laboratorio de Termodinamica</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3-2"
+      transform="scale(.90293 1.1075)"
+      x="214.77887"
+      y="123.53246"
+      fill="#000000"
+      fontSize="1.6206px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan217-8-5-5-2-9-7-4-5" x="214.77887" y="123.53246">
+        Lab. de
+      </tspan>
+      <tspan id="tspan220-3" x="214.77887" y="125.55821">
+        Termodinamica
+      </tspan>
+    </text>
+  </g>
+  <g id="g270">
+    <title id="title271">LABORATORIO DE ELECTRONICA II</title>
+    <path
+      id="path171"
+      d="m200.79 131.55c-3.2414-0.64489-5.8993-1.1774-5.9068-1.1832-7e-3 -6e-3 0.0869-0.45269 0.20968-0.99289 0.55736-2.4528 1.1145-6.0314 1.358-8.7229l0.11636-1.2862 0.33403-5.3e-4c0.71749-1e-3 10.029 0.28344 11.034 0.33752l1.065 0.0573-0.0637 0.94878c-0.19674 2.9292-0.84787 7.3659-1.5704 10.701-0.26233 1.2107-0.30688 1.3321-0.48593 1.3235-0.10841-5e-3 -2.849-0.53709-6.0904-1.182z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title46">Laboratorio de Electronica II</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3-2-9"
+      transform="scale(.90649 1.1032)"
+      x="217.54831"
+      y="112.96473"
+      fill="#000000"
+      fontSize="1.7577px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan217-8-5-5-2-9-7-4-5-9" x="217.54831" y="112.96473">
+        Lab. de
+      </tspan>
+      <tspan id="tspan220-3-0" x="217.54831" y="115.16183">
+        Electronica II
+      </tspan>
+    </text>
+  </g>
+  <g id="g272">
+    <title id="title273">LABORATORIO DE NEUROINGENIERIA</title>
+    <path
+      id="path172"
+      d="m202.85 118.95-6.174-0.18065v-4.2158c0-2.7461-0.043-4.6839-0.12324-5.558-0.0678-0.73826-0.10987-1.3537-0.0935-1.3676 0.0769-0.0655 12.247-1.1 12.301-1.0456 0.24604 0.24605 0.51562 9.4622 0.3397 11.613l-0.0765 0.93543z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title45">Laboratorio de Neuroingenieria</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3-2-9-5"
+      transform="scale(.92245 1.0841)"
+      x="213.57022"
+      y="103.56788"
+      fill="#000000"
+      fontSize="1.5726px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan220-3-0-8" x="213.57022" y="103.56788">
+        Lab. de
+      </tspan>
+      <tspan id="tspan221" x="213.57022" y="105.5336">
+        Neuroingenieria
+      </tspan>
+    </text>
+  </g>
+  <g id="g275">
+    <title id="title275">LABORATORIO DE BIOLOGIA</title>
+    <path
+      id="path173"
+      d="m196.26 106.1c-0.31154-2.5722-0.8942-5.838-1.4477-8.1144-0.12504-0.51429-0.21732-0.94511-0.20505-0.95736 0.0388-0.03882 11.763-2.9249 11.882-2.9249 0.38317 0 2.4941 11.436 2.1707 11.759-0.0511 0.0511-11.379 1.1195-12.137 1.1448-0.12322 4e-3 -0.17316-0.16836-0.26262-0.90698z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title44">Laboratiorio de Biologia</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3-2-9-5-2"
+      transform="scale(1.0312 .96972)"
+      x="191.37117"
+      y="103.55194"
+      fill="#000000"
+      fontSize="2.0746px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan220-3-0-8-0" x="191.37117" y="103.55194">
+        Lab. de
+      </tspan>
+      <tspan id="tspan221-2" x="191.37117" y="106.14519">
+        Biologia
+      </tspan>
+    </text>
+  </g>
+  <g id="g276">
+    <title id="title276">LABORATORIO DE BIOLOGIA</title>
+    <path
+      id="path174"
+      d="m194.11 95.299c-0.68238-2.4756-2.0495-6.3343-3.1337-8.8446l-0.33506-0.77583 0.39576-0.16957c3.9563-1.6952 10.86-4.5021 10.921-4.4404 0.27572 0.27961 2.2971 5.4416 3.1638 8.0792 0.57388 1.7465 1.2316 3.9936 1.2293 4.2002-1e-3 0.11991-1.1655 0.43595-5.8697 1.5935-3.2276 0.79414-5.9102 1.4575-5.9618 1.4741-0.0514 0.01662-0.23578-0.4858-0.40963-1.1165z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title43">Laboratorio de Biologia</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3-2-9-5-2-1"
+      transform="scale(.98402 1.0162)"
+      x="197.7392"
+      y="87.416489"
+      fill="#000000"
+      fontSize="2.1091px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan220-3-0-8-0-6" x="197.7392" y="87.416489">
+        Lab. de
+      </tspan>
+      <tspan id="tspan221-2-3" x="197.7392" y="90.052879">
+        Biologia
+      </tspan>
+    </text>
+  </g>
+  <g id="g278">
+    <title id="title278">LABORATORIO DE QUIMICA</title>
+    <path
+      id="path175"
+      d="m189.9 84.065c-0.26624-0.57525-0.90179-1.8336-1.4123-2.7963-2.9842-5.6276-6.7211-10.911-11.022-15.583l-0.88711-0.96386 0.22668-0.21771c0.12468-0.11974 2.1837-1.8496 4.5754-3.8441l4.3489-3.6263 0.92093 0.9727c4.6846 4.9482 9.4193 11.58 12.875 18.036 0.86404 1.614 2.1854 4.3137 2.1346 4.3613-0.0243 0.02278-10.627 4.4545-11.077 4.6302-0.18265 0.07123-0.24057-0.01077-0.68365-0.96807z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title34">Laboratorio de Quimica</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3-2-9-5-2-1-2"
+      transform="scale(1.008 .99203)"
+      x="182.77002"
+      y="71.18"
+      fill="#000000"
+      fontSize="2.5371px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan220-3-0-8-0-6-0" x="182.77002" y="71.18">
+        Lab. de
+      </tspan>
+      <tspan id="tspan221-2-3-4" x="182.77002" y="74.351425">
+        Quimica
+      </tspan>
+    </text>
+  </g>
+  <g id="g271">
+    <title id="title272">LABORATORIO DE FISICA</title>
+    <path
+      id="path178"
+      d="m173.47 125.32-6.1787-1.226 0.21098-1.0426c0.23549-1.1637 0.53503-3.1617 0.68656-4.5799 0.15097-1.4128 0.21746-5.5414 0.11223-6.969-0.0512-0.69455-0.0807-1.2759-0.0656-1.2918 0.0804-0.0846 12.884-1.156 12.953-1.0839 0.044 0.0461 0.13198 1.0099 0.19557 2.1418 0.24093 4.2886-0.0833 9.0783-0.90555 13.377-0.34816 1.8202-0.38047 1.9191-0.62306 1.909-0.11378-5e-3 -2.9874-0.5603-6.3854-1.2346z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title48">Laboratorio de Fisica</title>
+    </path>
+    <text
+      id="text217-2-5-0-2-4-3-3-2-9-0"
+      transform="scale(.93597 1.0684)"
+      x="182.11957"
+      y="109.11846"
+      fill="#000000"
+      fontSize="2.3096px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan217-8-5-5-2-9-7-4-5-9-1" x="182.11957" y="109.11846">
+        Lab. de
+      </tspan>
+      <tspan id="tspan220-3-0-2" x="182.11957" y="112.00555">
+        Fisica
+      </tspan>
+    </text>
+  </g>
+  <g id="g264">
+    <title id="title265">INGENIERIA EN ENERGIA</title>
+    <path
+      id="path168"
+      d="m147.94 161.81c-1.4406-2.1193-2.9842-4.3888-3.4305-5.0437l-0.81126-1.1904 0.95156-0.58218c1.3108-0.802 2.7302-1.754 3.911-2.6233 0.54731-0.4029 1.015-0.73254 1.0394-0.73254 0.0769 0 8.4422 8.9103 8.4422 8.992 0 0.25993-6.5846 4.7212-7.3712 4.9942-0.0639 0.0222-1.2399-1.6201-2.7315-3.8144z"
+      fill="#92ff92"
+      stroke="#fff"
+      strokeWidth=".13435"
+      style={{ paintOrder: "stroke markers fill" }}
+    >
+      <title id="title175">Ingenieria en Energia</title>
+    </path>
+    <text
+      id="text217-2-5-0-3"
+      transform="scale(.93669 1.0676)"
+      x="156.46025"
+      y="147.38617"
+      fill="#000000"
+      fontSize="1.6338px"
+      stroke="#ffffff"
+      strokeWidth={0}
+      style={{ paintOrder: "stroke markers fill" }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan217-8-5-5-0" x="156.46025" y="147.38617">
+        Ingenieria
+      </tspan>
+      <tspan id="tspan218" x="156.46025" y="149.42838">
+        en Energia
+      </tspan>
+    </text>
+  </g>
+  <text
+    id="text1"
+    x="123.75915"
+    y="62.76825"
+    fill="none"
+    fontSize="3.175px"
+    stroke="#ffffff"
+    strokeWidth={0}
+    style={{ paintOrder: "stroke markers fill" }}
+    xmlSpace="preserve"
+  >
+    <tspan id="tspan1" x="123.75915" y="62.76825" strokeWidth={0} />
+  </text>
+  <g id="g10" fill="#808080" strokeWidth={0}>
+    <path
+      id="path9"
+      d="m29.411 146.64c-1.1139-2.5499-1.4656-3.4755-2.5806-6.7923-0.91137-2.7109-0.97566-3.0067-0.68164-3.1332 0.46831-0.20169 11.814-2.9472 12.179-2.9472 0.22582 3e-5 0.46995 0.52789 0.93016 2.0112 0.34319 1.1061 1.0798 3.1638 1.637 4.5725 0.55715 1.4087 1.013 2.6398 1.013 2.7358 0 0.12639-9.3667 4.3613-11.528 5.212-0.11789 0.0464-0.54027-0.67629-0.96942-1.6588z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path19"
+      d="m91.579 197.85c-2.7291-0.69892-4.9979-1.3564-8.2054-2.3779-0.39703-0.12645-0.75575-0.31821-0.79713-0.42613-0.04137-0.10793 0.95699-2.5956 2.2186-5.5281l2.2938-5.3321 2.6192 0.85997c1.4406 0.47296 3.7557 1.1446 5.1448 1.4924 1.389 0.34785 2.5548 0.64944 2.5903 0.67021 0.10107 0.059-2.4726 11.478-2.5844 11.466-0.05472-6e-3 -1.5307-0.37676-3.28-0.82472z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path20"
+      d="m138.26 192.33c-0.84891-3.0003-1.4896-5.5091-1.4238-5.575 0.2082-0.2082 5.058-1.491 5.19-1.3728 0.0694 0.0622 0.4618 1.0812 0.87203 2.2645s1.2516 3.5925 1.8699 5.3535l1.124 3.2019-2.4637 0.67728c-1.3551 0.3725-2.7249 0.72865-3.0443 0.79141l-0.58059 0.11412z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path21"
+      d="m144.69 190.6c-1.0169-2.9069-1.849-5.3562-1.849-5.4432 0-0.14955 4.8278-1.9778 5.2509-1.9885 0.23428-6e-3 5.2456 10.234 5.0863 10.393-0.13138 0.13139-6.2383 2.3238-6.4729 2.3238-0.0916 0-0.99856-2.3783-2.0155-5.2852z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path22"
+      d="m174.18 62.253c-1.0804-1.0275-2.8641-2.6261-3.9639-3.5525l-1.9995-1.6844 3.8581-4.2341c2.122-2.3287 3.9152-4.2582 3.9848-4.2878 0.27024-0.1147 5.6972 4.5846 7.9882 6.9172l1.1683 1.1895-4.1518 3.457c-2.2835 1.9014-4.3246 3.5935-4.536 3.7602-0.36925 0.29144-0.45961 0.23122-2.3484-1.5651z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path23"
+      d="m156.59 76.125c-1.3891-1.2315-2.6301-2.3433-2.7577-2.4707-0.18461-0.18427 0.21379-0.74717 1.948-2.7524 1.199-1.3864 2.2866-2.5208 2.4167-2.5208 0.28414 0 3.8883 3.0368 5.2678 4.4386l0.98162 0.99744-2.5391 2.2397c-1.3965 1.2319-2.5959 2.2549-2.6654 2.2735-0.0695 0.01855-1.2629-0.97387-2.6519-2.2054z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path24"
+      d="m141.07 65.931c-1.8971-0.86883-3.4681-1.5991-3.4911-1.6228-0.0682-0.07002 2.3697-5.6401 2.5496-5.825 0.25614-0.26356 8.2406 3.0625 8.2194 3.4242-0.0208 0.35459-3.3366 5.5435-3.5599 5.5707-0.14783 0.01805-1.8209-0.67804-3.7179-1.5469z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path25"
+      d="m111.41 63.61c-0.17872-1.1833-0.55406-3.6792-0.83412-5.5467l-0.50915-3.3951 0.66949-0.11058c1.1948-0.19734 8.5197-0.33438 8.7616-0.1639 0.18768 0.13226 0.18092 1.2586-0.0339 5.6443-0.1476 3.0136-0.29519 5.5046-0.32803 5.5355-0.0328 0.03094-1.7115 0.08585-3.7303 0.12202l-3.6705 0.06576z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path26"
+      d="m70.087 46.092c-1.9527-2.744-3.4581-5.0313-3.3676-5.1164 0.67891-0.64087 11.213-5.8038 11.842-5.8038 0.10352 0 4.7019 9.568 5.2101 10.841 0.0278 0.06962-0.60361 0.40968-1.4031 0.75569-1.8593 0.80467-6.224 2.9723-7.5016 3.7258-0.54138 0.31922-1.0438 0.57594-1.1164 0.57051-0.07265-0.0054-1.721-2.2428-3.6631-4.972z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path27"
+      d="m59.274 53.443c-3.3554-3.2951-4.3685-4.3934-4.1772-4.5278 0.13894-0.09764 1.2062-0.89989 2.3717-1.7828 3.8663-2.9289 8.3023-5.7708 8.5576-5.4824 0.32829 0.37086 6.792 9.5021 6.8698 9.7051 0.04631 0.12069-0.44555 0.5417-1.093 0.93561-1.6516 1.0048-4.4539 2.9405-6.2782 4.337-0.85054 0.65103-1.6082 1.1796-1.6838 1.1746-0.07553-5e-3 -2.1307-1.9667-4.5669-4.3592z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path40"
+      d="m103.58 66.994c0-0.05152-0.62623-2.505-1.3916-5.4522-0.7654-2.9472-1.3655-5.3847-1.3335-5.4167 0.11419-0.11419 3.8838-0.83001 5.7678-1.0953 1.055-0.14855 2.1078-0.30019 2.3394-0.33697 0.40861-0.06488 0.42372-0.04995 0.50656 0.49971 0.047 0.31162 0.42777 2.8286 0.84629 5.5935 0.41851 2.7649 0.75225 5.0408 0.74167 5.0577-0.0106 0.0168-0.93945 0.14872-2.0642 0.29313-1.8345 0.23554-4.5698 0.70138-5.181 0.88232-0.12732 0.0377-0.2315 0.0264-0.2315-0.02513z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <path
+      id="path170"
+      d="m166.92 141.7c-3.035-1.6485-5.5202-3.0368-5.5228-3.0855-3e-3 -0.0486 0.27234-0.55456 0.61084-1.1245 0.3385-0.56991 1.061-1.9455 1.6055-3.0567 0.89116-1.8189 1.0179-2.0119 1.2697-1.9328 0.67642 0.21234 11.612 4.2616 11.672 4.3222 0.19253 0.19252-3.6062 7.5585-4.0346 7.8234-0.0457 0.0283-2.5662-1.2974-5.6012-2.9458z"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+  </g>
+  <g stroke="#000">
+    <g id="g11" fill="none">
+      <path
+        id="path29"
+        d="m7.6348 86.659a112.98 106.16 0 0 1 56.45-66.189"
+        strokeWidth="1.2726"
         style={{ paintOrder: "stroke markers fill" }}
       />
       <path
-        id="path19"
-        transform="scale(.26458)"
-        d="m346.13 747.79c-10.315-2.6416-18.89-5.1266-31.013-8.9876-1.5006-0.47792-2.8564-1.2027-3.0128-1.6106-0.15638-0.40793 3.617-9.8103 8.3853-20.894l8.6696-20.153 9.8995 3.2503c5.4447 1.7876 14.195 4.326 19.445 5.6407s9.6559 2.4546 9.7903 2.5331c0.38201 0.22298-9.3454 43.382-9.7678 43.338-0.2068-0.0213-5.7854-1.424-12.397-3.1171z"
+        id="path30"
+        d="m7.8083 86.222 18.189 5.8679"
+        strokeWidth="1.0163"
         style={{ paintOrder: "stroke markers fill" }}
       />
       <path
-        id="path20"
-        transform="scale(.26458)"
-        d="m522.58 726.93c-3.2085-11.34-5.6302-20.822-5.3815-21.071 0.78692-0.78692 19.117-5.6355 19.616-5.1887 0.26228 0.23492 1.7454 4.0864 3.2959 8.5588 1.5505 4.4724 4.7307 13.578 7.0673 20.234l4.2483 12.102-9.3119 2.5598c-5.1216 1.4079-10.299 2.754-11.506 2.9912l-2.1944 0.43132z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path21"
-        transform="scale(.26458)"
-        d="m546.86 720.37c-3.8436-10.987-6.9883-20.244-6.9883-20.573 0-0.56523 18.247-7.4752 19.846-7.5157 0.88549-0.0224 19.826 38.679 19.224 39.281-0.49658 0.49658-23.578 8.7828-24.465 8.7828-0.34613 0-3.7741-8.9891-7.6176-19.976z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path22"
-        transform="scale(.26458)"
-        d="m658.32 235.29c-4.0835-3.8835-10.825-9.9257-14.982-13.427l-7.5571-6.3662 14.582-16.003c8.0202-8.8015 14.798-16.094 15.061-16.206 1.0214-0.4335 21.533 17.328 30.192 26.144l4.4156 4.4958-15.692 13.066c-8.6307 7.1864-16.345 13.582-17.144 14.212-1.3956 1.1015-1.7371 0.8739-8.8761-5.9153z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path23"
-        transform="scale(.26458)"
-        d="m591.85 287.72c-5.2503-4.6545-9.9406-8.8568-10.423-9.3383-0.69773-0.69647 0.80804-2.824 7.3626-10.403 4.5318-5.2401 8.6422-9.5274 9.1341-9.5274 1.0739 0 14.696 11.478 19.91 16.776l3.7101 3.7699-9.5966 8.4653c-5.2781 4.6559-9.8115 8.5226-10.074 8.5927-0.26262 0.0701-4.7732-3.6808-10.023-8.3353z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path24"
-        transform="scale(.26458)"
-        d="m533.2 249.19c-7.1701-3.2838-13.108-6.0439-13.195-6.1334-0.25787-0.26463 8.9566-21.317 9.6365-22.016 0.9681-0.99614 31.146 11.575 31.066 12.942-0.0785 1.3402-12.611 20.952-13.455 21.055-0.55872 0.0682-6.8823-2.5627-14.052-5.8465z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path25"
-        transform="scale(.26458)"
-        d="m421.1 240.42c-0.67547-4.4724-2.0941-13.906-3.1526-20.964l-1.9244-12.832 2.5304-0.41793c4.5158-0.74587 32.201-1.2638 33.115-0.61947 0.70936 0.49988 0.68381 4.7569-0.12808 21.333-0.55785 11.39-1.1157 20.805-1.2398 20.922-0.12401 0.11694-6.4686 0.32447-14.099 0.46117l-13.873 0.24854z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path26"
-        transform="scale(.26458)"
-        d="m264.9 174.21c-7.3802-10.371-13.07-19.016-12.728-19.338 2.566-2.4222 42.381-21.936 44.757-21.936 0.39127 0 17.771 36.163 19.692 40.973 0.10507 0.26314-2.2814 1.5484-5.3033 2.8562-7.0274 3.0413-23.524 11.234-28.353 14.082-2.0462 1.2065-3.945 2.1768-4.2195 2.1563-0.27457-0.0205-6.5048-8.477-13.845-18.792z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path27"
-        transform="scale(.26458)"
-        d="m224.03 201.99c-12.682-12.454-16.511-16.605-15.788-17.113 0.52512-0.36904 4.559-3.4012 8.9641-6.7381 14.613-11.07 31.379-21.811 32.344-20.721 1.2408 1.4017 25.671 35.914 25.965 36.681 0.17504 0.45615-1.684 2.0474-4.1312 3.5362-6.2425 3.7977-16.834 11.114-23.729 16.392-3.2147 2.4606-6.0785 4.4583-6.364 4.4394-0.28548-0.0189-8.0531-7.4332-17.261-16.476z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path28"
-        transform="scale(.26458)"
-        d="m123.09 352.92c-12.611-3.7628-23.059-7.2287-23.216-7.702s1.06-4.9178 2.7062-9.8767c13.236-39.87 35.018-77.476 63.997-110.49 7.612-8.6707 25.083-25.944 33.148-32.774l5.6222-4.7609 33.478 33.456-8.219 7.2243c-37.51 32.97-65.996 75.966-81.533 123.06-1.5375 4.6606-2.8536 8.5245-2.9247 8.5864-0.0711 0.062-10.448-2.966-23.059-6.7288z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path40"
-        transform="scale(.26458)"
-        d="m391.5 253.21c0-0.19473-2.3669-9.468-5.2598-20.607s-5.161-20.352-5.0401-20.473c0.43159-0.4316 14.679-3.1371 21.8-4.1398 3.9875-0.56145 7.9664-1.1346 8.8419-1.2736 1.5444-0.24521 1.6015-0.18881 1.9146 1.8887 0.17747 1.1778 1.6168 10.691 3.1986 21.141s2.8432 19.052 2.8032 19.116c-0.04 0.0635-3.5507 0.56211-7.8016 1.1079-6.9336 0.89026-17.272 2.6509-19.582 3.3348-0.48125 0.1425-0.875 0.0998-0.875-0.095z"
-        style={{ paintOrder: "stroke markers fill" }}
-      />
-      <path
-        id="path170"
-        transform="scale(.26458)"
-        d="m630.89 535.58c-11.471-6.2305-20.864-11.478-20.874-11.662-0.01-0.18352 1.0293-2.096 2.3087-4.25 1.2794-2.154 4.01-7.353 6.068-11.553 3.3682-6.8747 3.8473-7.604 4.7988-7.3053 2.5566 0.80257 43.888 16.107 44.117 16.336 0.72766 0.72766-13.63 28.568-15.249 29.569-0.17277 0.10678-9.6993-4.9035-21.17-11.134z"
+        id="path31"
+        d="m63.465 20.083 9.6533 16.746"
+        strokeWidth="1.0258"
         style={{ paintOrder: "stroke markers fill" }}
       />
     </g>
+    <g id="g15" fill="#808080">
+      <g id="g12">
+        <path
+          id="path32"
+          d="m31.194 81.917 12.378 4.7793"
+          strokeWidth=".30019"
+          style={{ paintOrder: "stroke markers fill" }}
+        />
+        <path
+          id="path33"
+          d="m39.491 85.062 9.1625-15.87"
+          strokeWidth=".3"
+          style={{ paintOrder: "stroke markers fill" }}
+        />
+        <path
+          id="path41"
+          d="m36.768 84.041 9.1814-15.903"
+          strokeWidth=".3"
+          style={{ paintOrder: "stroke markers fill" }}
+        />
+      </g>
+      <g id="g14" strokeWidth=".1">
+        <g id="g196">
+          <path
+            id="path191"
+            d="m40.914 82.618-2.5655-1.07"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+          <path
+            id="path192"
+            d="m41.194 82.266-2.7357-1.07"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+          <path
+            id="path193"
+            d="m41.34 81.962-2.7114-1.0943"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+        </g>
+        <g id="g196-8" transform="translate(2.5536 -4.4257)">
+          <path
+            id="path191-8"
+            d="m40.914 82.618-2.5655-1.07"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+          <path
+            id="path192-8"
+            d="m41.194 82.266-2.7357-1.07"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+          <path
+            id="path193-4"
+            d="m41.34 81.962-2.7114-1.0943"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+        </g>
+        <g id="g196-89" transform="translate(5.7513 -10.104)">
+          <path
+            id="path191-81"
+            d="m40.914 82.618-2.5655-1.07"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+          <path
+            id="path192-3"
+            d="m41.194 82.266-2.7357-1.07"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+          <path
+            id="path193-3"
+            d="m41.34 81.962-2.7114-1.0943"
+            style={{ paintOrder: "stroke markers fill" }}
+          />
+        </g>
+      </g>
+    </g>
+    <g id="g17" fill="#f2f2f2">
+      <path
+        id="path196"
+        transform="scale(.26458)"
+        d="m156.75 323.84c-3.2884-1.2678-6.0793-2.4054-6.2019-2.5279-0.12388-0.12388 7.3529-13.342 16.832-29.758 9.3803-16.244 17.055-29.621 17.055-29.726 0-0.10508-0.23246-0.33623-0.51658-0.51367-0.60507-0.37787-0.4679-0.57048-4.0419 5.6754l-2.3164 4.0481-4.1663-1.6653c-2.2914-0.91593-4.2532-1.7483-4.3595-1.8498-0.10628-0.10144 1.0476-2.3353 2.5642-4.9642 2.566-4.4479 2.7248-4.8036 2.2882-5.1229-0.25809-0.18871-0.54669-0.34312-0.64134-0.34312-0.0947 0-7.8137 13.248-17.153 29.44s-17.107 29.629-17.261 29.861c-0.24693 0.37173-1.3657 6.8e-4 -9.6228-3.1916-5.1389-1.9867-9.3813-3.6501-9.4275-3.6963-0.11004-0.11004 7.9754-15.426 13.122-24.857 22.197-40.675 39.613-65.25 61.447-86.706 2.6247-2.5793 6.2311-5.9951 8.0142-7.5908l3.242-2.9012 1.8272 1.7418c1.0049 0.95799 8.5763 8.4097 16.825 16.559l14.998 14.817-2.9102 2.5006c-7.4339 6.3878-16.388 15.41-23.445 23.625-15.947 18.562-30.57 41.408-47.351 73.975l-2.8218 5.4765z"
+        strokeWidth=".098251"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <g id="g16" strokeWidth=".049126">
+        <path
+          id="path197"
+          transform="scale(.26458)"
+          d="m160.91 290.76c-2.2876-0.92547-4.2591-1.7278-4.3811-1.783-0.18828-0.0852 0.57129-1.473 5.0241-9.1797 2.8852-4.9937 5.3017-9.1352 5.37-9.2035 0.0788-0.0788 1.6846 0.52427 4.3993 1.6521 2.3514 0.97692 4.3222 1.8198 4.3795 1.873 0.11385 0.1057-10.292 18.221-10.503 18.285-0.0712 0.0215-2.0012-0.71821-4.2888-1.6437z"
+          style={{ paintOrder: "stroke markers fill" }}
+        />
+        <path
+          id="path198"
+          transform="scale(.26458)"
+          d="m151.1 307.43c-2.3948-0.97105-4.3737-1.7803-4.3974-1.7983-0.0431-0.0327 7.7272-13.552 7.8926-13.732 0.048-0.0523 2.0754 0.73739 4.5054 1.7548l4.4181 1.8498-3.9381 6.8237c-2.166 3.753-3.9805 6.8337-4.0322 6.8458-0.0518 0.0122-2.0535-0.77239-4.4484-1.7434z"
+          style={{ paintOrder: "stroke markers fill" }}
+        />
+        <path
+          id="path199"
+          transform="scale(.26458)"
+          d="m144.45 319.17c-2.4084-0.93524-4.4156-1.7385-4.4604-1.785-0.0601-0.0623 4.6783-8.4797 4.958-8.8074 0.0486-0.0569 8.6237 3.4744 8.7869 3.6186 0.0749 0.0661-4.6612 8.4867-4.8585 8.6382-0.0259 0.0199-2.0176-0.72908-4.426-1.6643z"
+          style={{ paintOrder: "stroke markers fill" }}
+        />
+      </g>
+    </g>
+  </g>
+  <g id="g28">
+    <path
+      id="path201"
+      d="m25.727 91.397c-1.0238-0.30093-17.035-5.4895-17.08-5.535-0.070378-0.07038 0.67918-2.4383 1.5174-4.7937 8.43-23.688 25.402-43.687 48.13-56.721 1.8637-1.0687 5.2696-2.8847 5.3183-2.8358 0.05107 0.05135 8.7068 15.072 8.7068 15.109 0 0.01797-0.71355 0.40449-1.5857 0.85899-11.991 6.2491-20.123 12.884-26.963 22-3.7388 4.9828-7.1611 10.641-11.998 19.834-1.0495 1.995-1.2504 2.4414-1.138 2.529 0.11248 0.08756-0.26992 0.94159-2.1679 4.8413-1.2674 2.6043-2.3257 4.7526-2.3517 4.7741-0.02599 0.02151-0.20045-0.0059-0.38769-0.06097z"
+      fill="#808080"
+      stroke="#000"
+      strokeWidth=".036763"
+      style={{ paintOrder: "stroke markers fill" }}
+    />
+    <text
+      id="text201"
+      transform="matrix(.20712 0 0 .27393 30.583 53.862)"
+      fill="#000000"
+      stroke="#000000"
+      strokeWidth=".37795"
+      style={{
+        paintOrder: "stroke markers fill",
+        shapeInside: "url(#rect202)",
+        whiteSpace: "pre"
+      }}
+      xmlSpace="preserve"
+    >
+      <tspan id="tspan3" x={0} y={0}>
+        Biblioteca
+      </tspan>
+      <tspan id="tspan4" x={0} y={15}>
+        Central
+      </tspan>
+    </text>
+  </g>
+  <g stroke="#000">
+    <g id="g211" transform="rotate(1.9861,-63.831,216.4)">
+      <path
+        id="path202"
+        d="m107.37 198.71 4.8146-8.3912"
+        strokeWidth=".1"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path209"
+        d="m112.15 190.28 5.3304 8.116"
+        strokeWidth=".1"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path210"
+        d="m107.37 198.67 10.072-0.30941"
+        strokeWidth=".10082"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+    </g>
+    <g id="g211-1" transform="rotate(-17.707,-363.09,-74.164)">
+      <path
+        id="path202-1"
+        d="m107.37 198.71 4.8146-8.3912"
+        strokeWidth=".1"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path209-6"
+        d="m112.15 190.28 5.3304 8.116"
+        strokeWidth=".1"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+      <path
+        id="path210-7"
+        d="m107.37 198.67 10.072-0.30941"
+        strokeWidth=".10082"
+        style={{ paintOrder: "stroke markers fill" }}
+      />
+    </g>
+    <g id="g18">
+      <text
+        id="text211"
+        transform="scale(.26458)"
+        strokeWidth=".37795"
+        style={{
+          paintOrder: "stroke markers fill",
+          shapeInside: "url(#rect211)",
+          whiteSpace: "pre"
+        }}
+        xmlSpace="preserve"
+      />
+      <text
+        id="text212"
+        x="166.039"
+        y="28.986303"
+        fontSize="3.175px"
+        strokeWidth=".1"
+        style={{ paintOrder: "stroke markers fill" }}
+        xmlSpace="preserve"
+      >
+        <tspan id="tspan212" x="166.039" y="28.986303" strokeWidth=".1">
+          Entrada
+        </tspan>
+      </text>
+      <text
+        id="text212-1"
+        x="106.97243"
+        y="208.95125"
+        fontSize="3.175px"
+        strokeWidth=".1"
+        style={{ paintOrder: "stroke markers fill" }}
+        xmlSpace="preserve"
+      >
+        <tspan id="tspan212-3" x="106.97243" y="208.95125" strokeWidth=".1">
+          Entrada
+        </tspan>
+      </text>
+    </g>
   </g>
 </svg>
-</div>
-</div>
+
+
     )
 }
 

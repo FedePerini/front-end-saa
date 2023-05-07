@@ -45,6 +45,7 @@ export const UnsamMap = () => {
 
   useEffect(() => {
     loadFeatures()
+    generateRoute()
   },[])
 
 //########################################################################

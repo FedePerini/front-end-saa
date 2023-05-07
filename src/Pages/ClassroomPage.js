@@ -24,6 +24,7 @@ export const ClassroomPage = () => {
                     <Text className='infoTitle'> Siguiente Materia: </Text>
                     <ClassroomSubject></ClassroomSubject>
                 </Box>
+                <Calendar></Calendar>
             </Flex>
 
             

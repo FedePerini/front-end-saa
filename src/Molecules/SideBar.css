@@ -1,7 +1,7 @@
 .sideBar-button{
 
     text-align: center;
-    position: fixed !important;
+    position: absolute !important;
     top: 60px!important;
     left: 0px!important;
     background-color: var(--brightMainColor) !important;
@@ -29,6 +29,7 @@
     transition: 850ms;
     flex-direction: column;
     padding: 10px;
+    z-index: 10;
 }
 
 .sideBar.active{
