@@ -4,7 +4,7 @@ import { useState } from "react"
 import ClassroomCard from '../Molecules/ClassroomCard'
 import { Box, Flex } from '@chakra-ui/react'
 import PropTypes from 'prop-types'
-import "./TornaviasSVG.css"
+import "./SVGStyles.css"
 
 export const TornaviasSVG = (props) => {
 
