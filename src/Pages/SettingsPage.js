@@ -4,9 +4,10 @@ import { Box, Button, Divider, Flex,Text } from "@chakra-ui/react"
 import { Header } from '../Organisms/Header'
 import SubHeader from '../Atoms/SubHeader'
 import { FaChalkboardTeacher, FaKey, FaPencilRuler, FaTrashAlt } from "react-icons/fa"
-import "./SettingsPage.css"
 import { useState } from 'react'
 import CustomButton from '../Atoms/CustomButton'
+import "./SettingsPage.css"
+import { SubjectOption } from '../Molecules/SubjectOption'
 
 export const SettingsPage = () => {
 
@@ -46,29 +47,21 @@ export const SettingsPage = () => {
                         </Flex>
                     </Flex> }
 
-                    {(option == 2) &&  
-                    <Flex className='settingsMenuContent'>
-                        <Text className='selectionTitle'>Materias</Text>
-                        <Flex className='settingsMenuContentOptions'>
-                            <Flex className='settingButtonContainer'>
-                                <CustomButton label={"Agregar Materia"}></CustomButton>
-                                <Text>Agregar una nueva materia</Text>
-                            </Flex>
-
-                            <Flex className='settingButtonContainer'>
-                                <CustomButton label={"Quitar Materia"}></CustomButton>
-                                <Text>Eliminar una materia</Text>
-                            </Flex>                            
-                        </Flex>
-                    </Flex> }
+                    {(option == 2) && 
+                    <>
+                        <SubjectOption></SubjectOption>
+                    </>
+                    
+                    
+                    }
 
                     {(option == 3) &&  
                     <Flex className='settingsMenuContent'>
                         <Text className='selectionTitle'>Desasignacion general</Text>
                         <Flex className='settingsMenuContentOptions'>
-                        <Flex className='settingButtonContainer'>
-                                <CustomButton extraClassName={"warningButton"} label={"Desasignar Materias"}></CustomButton>
-                                <Text>Desasginar todas las materias</Text>
+                            <Flex className='settingsButtonContainer'>
+                                    <CustomButton extraClassName={"warningButton"} label={"Desasignar Materias"}></CustomButton>
+                                    <Text>Desasginar todas las materias</Text>
                             </Flex>   
                         </Flex>
                     </Flex> }

@@ -25,6 +25,7 @@
     width: 100%;
     flex-direction: column;
     gap: 5px;
+    
 }
 
 .settingsMenuButton{
@@ -75,12 +76,6 @@
     font-weight: bolder;
 }
 
-.settingButtonContainer{
-    gap: 5px;
-    align-items: center;
-    font-size: 20px;
-}
-
 .warningButton {
     background-color: red !important;
     border-color: red;
@@ -93,18 +88,23 @@
     color: white;
 }
 
+.settingsButtonContainer{
+    align-items: center;
+    gap: 10px;
+}
+
 @media (min-width: 768px) {
     
 .settingsMenu{
     flex-direction: row;
     align-items:flex-start;
     justify-content: flex-start;
-    width: auto;
+    width: 100%;
 }
 
 .settingsMenuSelectorContainer{
-    width: auto;
     flex-direction: row;
+    width: auto;
 }
 
 .settingsMenuContainer{
