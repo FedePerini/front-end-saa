@@ -6,7 +6,7 @@ import { REST_SERVER_URL } from './Constants'
 class AdminService {
 
     async login(userCredentials){
-        const response = await axios.post('http://localhost:8080/admin/login', userCredentials)
+        const response = await axios.post(REST_SERVER_URL + '/admin/login', userCredentials)
         return response.data
     }
 

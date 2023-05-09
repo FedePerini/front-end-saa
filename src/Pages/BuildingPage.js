@@ -8,11 +8,26 @@ import SideBar from '../Molecules/SideBar'
 import { InfoCard } from '../Organisms/InfoCard'
 import { SVGMaps } from '../Utils/SVGMapsStruct'
 import "./BuildingPage.css"
+import { useEffect } from 'react'
+import { useParams } from 'react-router-dom'
+import { buildingService } from '../Service/BuildingService'
+import { BuildingMap } from '../Organisms/BuildingMap'
 
 export const BuildingPage = () => {
 
     const [active,setActive] = useState(false)
     const [level, setLevel] = useState(0)
+    const { id } = useParams()
+    const [building, setBuilding] = useState({})
+
+    useEffect(() => {
+        getBuilding(id)
+    },[])
+
+    const getBuilding = async() => {
+        const aux = await buildingService.getBuildingById(id)
+        setBuilding(aux)
+    }
 
     const showCard = () =>{
         setActive(true)
@@ -30,8 +45,6 @@ export const BuildingPage = () => {
         setLevel(level - 1)
     }
 
-    const Maps = SVGMaps["tornavias"]
-
     return (
         <Flex className='pageContainer'>
             <Header></Header>
@@ -39,8 +52,8 @@ export const BuildingPage = () => {
             <Flex className='mainSection'>
                 <SideBar></SideBar>
 
-                <Maps showCardFunc={showCard} floorNumber={level} increaseFunc={increaseFloor} decreaseFunc={decreaseFloor}></Maps>
-
+                {(building.nombreSVG) && <BuildingMap SVGName={building.nombreSVG} showCardFunc={showCard} floorNumber={level} increaseFunc={increaseFloor} decreaseFunc={decreaseFloor}></BuildingMap>}
+                {(!building.nombreSVG) && <div> Cargando mapas... </div>}
             </Flex>
             
             <InfoCard isOn={active} closeCardFunc={closeCard}></InfoCard>

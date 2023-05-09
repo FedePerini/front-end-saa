@@ -23,6 +23,7 @@ import Icon from 'ol/style/Icon'
 import MapContext from '../Utils/MapContext'
 import { useNavigate } from 'react-router-dom'
 import { MapInteractivity } from '../Molecules/MapInteractivity'
+import { buildingService } from '../Service/BuildingService'
 
 export const UnsamMap = () => {
 
@@ -38,6 +39,7 @@ export const UnsamMap = () => {
   const [center, setCenter] = useState([0,0])
   const [zoom, setZoom] = useState(9)
   const [vectorSource, setVectorSource] = useState(new VectorSource())
+  const [buildings,setBuildings] = useState([])
 
   const limiteSuperior = [-58.5300722,-34.5764979]
   const limiteInferior = [-58.514110,-34.583700]
@@ -47,36 +49,29 @@ export const UnsamMap = () => {
   var ext = boundingExtent([limiteSuperior,limiteInferior])
   ext =  transformExtent(ext, get('EPSG:4326'), get('EPSG:3857'))
 
-  const mapRef = useRef()
-
   useEffect(() => {
-    loadFeatures()
+    getBuildings()
   },[])
 
 //########################################################################
 
-const points = [
-    {
-      coords: tornaviasWebMercator,
-      name: 'Point A',
-      content: "Tornavias",
-      navigate: function(){navigate("/building/0")}
-    },
-    {
-      coords: aularioWebMercator,
-      name: 'Point B',
-      content: "Aulario",
-      navigate: function(){navigate("/building/0")}
-    },
-    {
-      coords: cienciasSocialesWebMercator,
-      name: 'Point C',
-      content: "Edificio de ciencias sociales",
-      navigate: function(){navigate("/building/0")}
-    }
-  ]
+  const getBuildings = async () => {
+      const aux = await buildingService.getAllBuildings()
+      setBuildings(aux)
+      loadFeatures(aux)
+  }
 
-  const loadFeatures = () =>{
+  const convertToPoint = (building) => {
+    return {
+      id: building.id,
+      coords: fromLonLat([building.coordenadasX,building.coordenadasY]),
+      nombre: building.nombre,
+      content: "Edificio: " + building.nombre,
+      navigate: function(){navigate("/building/"+ building.id)}
+    }
+  }
+
+  const loadFeatures = (buildings) =>{
 
     var markerStyle = new Style({
       image: new Icon({
@@ -87,11 +82,13 @@ const points = [
       })
     })
 
-    points.forEach( point =>{
+    buildings.forEach( building =>{
 
+      const point = convertToPoint(building)
       var feature = new Feature({
+        id: point.id,
         geometry: new Point(point.coords),
-        name: point.name,
+        name: point.nombre,
         clickable: true,
         content: point.content,
         navigate: point.navigate

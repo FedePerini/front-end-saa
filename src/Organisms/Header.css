@@ -6,4 +6,5 @@
     align-items: center;
     padding: 0 10px;
     font-size: 25px;
+    z-index: 5;
 }
