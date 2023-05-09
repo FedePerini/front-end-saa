@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-inner-declarations */
-import React, { createContext, useEffect, useState } from 'react'
+import React, { createContext, useContext, useEffect, useRef, useState } from 'react'
 import { Button, Text } from '@chakra-ui/react'
 import * as olSource from "ol/source"
 import Map from './Map'
@@ -18,9 +18,11 @@ import { LineString, Point, Circle } from 'ol/geom'
 import Style from 'ol/style/Style'
 import Fill from 'ol/style/Fill'
 import Stroke from 'ol/style/Stroke'
-
 import "./UnsamMap.css"
 import Icon from 'ol/style/Icon'
+import MapContext from '../Utils/MapContext'
+import { useNavigate } from 'react-router-dom'
+import { MapInteractivity } from '../Molecules/MapInteractivity'
 
 export const UnsamMap = () => {
 
@@ -39,13 +41,16 @@ export const UnsamMap = () => {
 
   const limiteSuperior = [-58.5300722,-34.5764979]
   const limiteInferior = [-58.514110,-34.583700]
+  
+  const navigate = useNavigate()
 
   var ext = boundingExtent([limiteSuperior,limiteInferior])
   ext =  transformExtent(ext, get('EPSG:4326'), get('EPSG:3857'))
 
+  const mapRef = useRef()
+
   useEffect(() => {
     loadFeatures()
-    generateRoute()
   },[])
 
 //########################################################################
@@ -55,19 +60,21 @@ const points = [
       coords: tornaviasWebMercator,
       name: 'Point A',
       content: "Tornavias",
+      navigate: function(){navigate("/building/0")}
     },
     {
       coords: aularioWebMercator,
       name: 'Point B',
       content: "Aulario",
+      navigate: function(){navigate("/building/0")}
     },
     {
       coords: cienciasSocialesWebMercator,
       name: 'Point C',
       content: "Edificio de ciencias sociales",
+      navigate: function(){navigate("/building/0")}
     }
   ]
-
 
   const loadFeatures = () =>{
 
@@ -87,6 +94,7 @@ const points = [
         name: point.name,
         clickable: true,
         content: point.content,
+        navigate: point.navigate
       })
 
       feature.setStyle(markerStyle)
@@ -97,30 +105,17 @@ const points = [
 
 //########################################################################
 
-  const generateRoute = async () => {
-      const routeCoordinates = await routeService.getRoute()
-
-      var routePoints = []
-      for (var i = 0; i < routeCoordinates.length; i++) {
-        var coord = fromLonLat(routeCoordinates[i])
-        routePoints.push(coord)
-      }
-      var routeFeature = new Feature({
-         geometry: new LineString(routePoints)
-      })
-      vectorSource.addFeature(routeFeature)
-  }
-
 return (
     <div className='mapContainer'>
-    <Map center={center} zoom={zoom} extent={ext}>
-        <Layers>
-            <TileLayer source={new olSource.OSM()}></TileLayer>
-            <VectorLayer source={vectorSource}></VectorLayer>
-        </Layers>
-        <Controls>
-        </Controls>
-    </Map>
+      <Map center={center} zoom={zoom} extent={ext}>
+        <MapInteractivity></MapInteractivity>
+          <Layers>
+              <TileLayer source={new olSource.OSM()}></TileLayer>
+              <VectorLayer source={vectorSource}></VectorLayer>
+          </Layers>
+          <Controls>
+          </Controls>
+      </Map>
     </div>
 )}
 

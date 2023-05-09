@@ -11,8 +11,8 @@ import { SettingsPage } from './Pages/SettingsPage'
 export const PageRoutes = () => 
     <Router>
         <Routes>
-            <Route exact={true} path="/" element={<LoginPage/>} />
-            <Route exact={true} path="/main" element={<MainPage/>} />
+            <Route exact={true} path="/" element={<MainPage/>} />
+            <Route exact={true} path="/login" element={<LoginPage/>} />
             <Route exact={true} path="/building/:id" element={<BuildingPage/>} />
             <Route exact={true} path="/classroom/:id" element={<ClassroomPage/>} />
             <Route exact={true} path="/settings" element={<SettingsPage/>} />

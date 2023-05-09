@@ -6,7 +6,7 @@ import { Box, Flex } from '@chakra-ui/react'
 import PropTypes from 'prop-types'
 import "./SVGStyles.css"
 
-export const TornaviasSVG = (props) => {
+export const TornaviasPB = (props) => {
 
   const [position, setPosition] = useState({x: 0, y: -100})
 
@@ -2335,6 +2335,6 @@ export const TornaviasSVG = (props) => {
     )
 }
 
-TornaviasSVG.propTypes = {
+TornaviasPB.propTypes = {
   showCardFunc: PropTypes.func
 }

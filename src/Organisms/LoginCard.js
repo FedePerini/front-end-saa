@@ -6,6 +6,8 @@ import { useNavigate } from 'react-router-dom'
 import CustomButton from '../Atoms/CustomButton'
 import { UserCredentials } from '../Domain/UserCredentials'
 import "./LoginCard.css"
+import { getErrorMessage, validateVarious } from '../Domain/Utils'
+import { adminService } from '../Service/AdminService'
 
 
 export const LoginCard = () => {
@@ -28,11 +30,22 @@ export const LoginCard = () => {
         update("contrasenia",password.target.value)
     }
 
-    const logInFunction = () => {
+    const logInFunction = async () => {
         setClickFlag(true)
 
-        if(!usernameCondition && !passwordCondition){
-            navigate("/main")
+        if(validateVarious([!usernameCondition,!passwordCondition])) {
+            try{
+                const userId = await adminService.login(userCredentials)
+                navigate("/",{state:{id: userId}})
+            }catch(error){
+                toast({
+                    title: 'Error',
+                    description: getErrorMessage(error),
+                    status: 'error',
+                    duration: 9000,
+                    isClosable: true,
+                  })
+            }
         }
 
     }

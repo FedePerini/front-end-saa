@@ -3,13 +3,11 @@ import React, { useState } from 'react'
 import { AspectRatio, Box, Button, Flex, Grid,Text } from '@chakra-ui/react'
 import { Header } from '../Organisms/Header'
 import ClassroomCard from '../Molecules/ClassroomCard'
-import { TornaviasSVG } from '../SVG/TornaviasSVG'
+import { TornaviasPB } from '../SVG/TornaviasPB'
 import SideBar from '../Molecules/SideBar'
-import "./BuildingPage.css"
 import { InfoCard } from '../Organisms/InfoCard'
-import { Tornavias1P } from '../SVG/Tornavias1P'
-import { TornaviasSubSuelo } from '../SVG/TornaviasSubSuelo'
-import { FloorSelector } from '../Molecules/FloorSelector'
+import { SVGMaps } from '../Utils/SVGMapsStruct'
+import "./BuildingPage.css"
 
 export const BuildingPage = () => {
 
@@ -32,6 +30,7 @@ export const BuildingPage = () => {
         setLevel(level - 1)
     }
 
+    const Maps = SVGMaps["tornavias"]
 
     return (
         <Flex className='pageContainer'>
@@ -40,12 +39,8 @@ export const BuildingPage = () => {
             <Flex className='mainSection'>
                 <SideBar></SideBar>
 
-                    <>
-                        <FloorSelector maxValue={1} minValue={-1} floorNumber={level} increaseFunc={increaseFloor} decreaseFunc={decreaseFloor}></FloorSelector>
-                        {(level == 0) && <TornaviasSVG showCardFunc={showCard}></TornaviasSVG>}
-                        {(level == 1) && <Tornavias1P showCardFunc={showCard}></Tornavias1P>}
-                        {(level == -1) && <TornaviasSubSuelo showCardFunc={showCard}></TornaviasSubSuelo>}
-                    </>
+                <Maps showCardFunc={showCard} floorNumber={level} increaseFunc={increaseFloor} decreaseFunc={decreaseFloor}></Maps>
+
             </Flex>
             
             <InfoCard isOn={active} closeCardFunc={closeCard}></InfoCard>
