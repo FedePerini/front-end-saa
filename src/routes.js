@@ -7,6 +7,7 @@ import { BuildingPage } from './Pages/BuildingPage'
 import { ClassroomPage } from './Pages/ClassroomPage'
 import { LoginPage } from './Pages/LoginPage'
 import { SettingsPage } from './Pages/SettingsPage'
+import ProfessorForm from './Pages/ProfessorForm'
 
 export const PageRoutes = () => 
     <Router>
@@ -16,5 +17,7 @@ export const PageRoutes = () =>
             <Route exact={true} path="/building/:id" element={<BuildingPage/>} />
             <Route exact={true} path="/classroom/:id" element={<ClassroomPage/>} />
             <Route exact={true} path="/settings" element={<SettingsPage/>} />
+            <Route exact={true} path="/professor/new" element={<ProfessorForm/>} />
+            <Route exact={true} path="/professor/edit/:id" element={<ProfessorForm/>} />
         </Routes>
     </Router>
