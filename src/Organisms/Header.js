@@ -4,14 +4,17 @@ import { Flex, Text } from '@chakra-ui/react'
 import Dropdown from '../Molecules/Dropdown'
 
 import "./Header.css"
+import { SubjectSearch } from './SubjectSearch'
 
 export const Header = () => {
 
     return (
-        <Flex className='header'>
-            <Text>TEXTO DE PRUEBA</Text>
-            <Dropdown></Dropdown>
-        </Flex>
+        <>
+            <Flex className='header'>
+                <Text>TEXTO DE PRUEBA</Text>
+                <Dropdown></Dropdown>
+            </Flex>
+        </>
     )
 
 }

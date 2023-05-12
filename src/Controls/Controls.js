@@ -1,10 +1,11 @@
 /* eslint-disable no-unused-vars */
 import React from "react"
 import PropTypes from 'prop-types'
+import "./controls.css"
 
 const Controls = ({ children }) => {
 
-    return <div>{children}</div>
+    return <div className="mapControls">{children}</div>
     
 }
 

@@ -1,0 +1,28 @@
+.subjectSearch{
+    
+    background-color: var(--clearColor);
+    width: 100%;
+    max-width: 375px;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    flex-direction: column;
+}
+
+.subjectSearchInput{
+    border-color: black !important;
+    border-radius: 5px 0 0 5px !important;
+}
+
+.subjectSearchButton{
+    border-color: black !important;
+    border-radius: 0px 5px 5px 0px !important;
+    background-color: var(--brightMainColor) !important;
+    border-style: solid;
+    border-width:  1px 1px 1px 0px;
+    font-size: 20px !important;
+}
+
+.subjectSearchButton:hover{
+    background-color: var(--mainColor) !important;
+}

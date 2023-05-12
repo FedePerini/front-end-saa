@@ -1,29 +1,25 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-inner-declarations */
 import React, { createContext, useContext, useEffect, useRef, useState } from 'react'
-import { Button, Text } from '@chakra-ui/react'
 import * as olSource from "ol/source"
 import Map from './Map'
 import Layers from '../Layers/Layers'
 import TileLayer from '../Layers/TileLayer'
 import Controls from '../Controls/Controls'
-import FullScreenControl from '../Controls/FullScreenControl'
 import { boundingExtent } from "ol/extent"
 import { fromLonLat, get, transformExtent } from "ol/proj"
-import { routeService } from '../Service/RouteService'
 import VectorLayer from '../Layers/VectorLayer'
 import VectorSource from 'ol/source/Vector'
 import { Feature } from 'ol'
-import { LineString, Point, Circle } from 'ol/geom'
+import { Point } from 'ol/geom'
 import Style from 'ol/style/Style'
-import Fill from 'ol/style/Fill'
-import Stroke from 'ol/style/Stroke'
-import "./UnsamMap.css"
 import Icon from 'ol/style/Icon'
-import MapContext from '../Utils/MapContext'
 import { useNavigate } from 'react-router-dom'
 import { MapInteractivity } from '../Molecules/MapInteractivity'
 import { buildingService } from '../Service/BuildingService'
+
+import "./UnsamMap.css"
+import { SubjectSearch } from './SubjectSearch'
 
 export const UnsamMap = () => {
 
@@ -105,12 +101,13 @@ export const UnsamMap = () => {
 return (
     <div className='mapContainer'>
       <Map center={center} zoom={zoom} extent={ext}>
-        <MapInteractivity></MapInteractivity>
+          <MapInteractivity/>
           <Layers>
               <TileLayer source={new olSource.OSM()}></TileLayer>
               <VectorLayer source={vectorSource}></VectorLayer>
           </Layers>
           <Controls>
+            <SubjectSearch/>
           </Controls>
       </Map>
     </div>

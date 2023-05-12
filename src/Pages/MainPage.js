@@ -3,6 +3,7 @@ import React from 'react'
 import { Flex } from '@chakra-ui/react'
 import { Header } from '../Organisms/Header'
 import UnsamMap from '../Organisms/UnsamMap'
+import MapContext from '../Utils/MapContext'
 
 export const MainPage = () => {
 

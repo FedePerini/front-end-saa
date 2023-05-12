@@ -9,13 +9,11 @@ class RouteService{
 
     async getRoute(){
 
-        const apiRoute = 'https://api.openrouteservice.org/v2/directions/wheelchair?api_key=' + API_KEY + '&start=-58.5263602,-34.5786899&end=-58.521699,-34.581562'
-
-        const response = await axios.get(apiRoute)
-
-        return response.data.features[0].geometry.coordinates
+        const url = 'https://routing.openstreetmap.de/routed-foot/route/v1/driving/-58.52636396884919,-34.57869402914043;-58.52110683918,-34.58154942837035?overview=false&geometries=polyline&steps=true'
+        const response = await axios.get(url)
+        
+        return response.data.routes[0].legs[0].steps
     }
-
 }
 
 export const routeService = new RouteService()

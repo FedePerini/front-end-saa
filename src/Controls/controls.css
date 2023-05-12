@@ -1,0 +1,6 @@
+.mapControls{
+    position: fixed;
+    top: 56px;
+    z-index: 10;
+    width: 100%;
+}
