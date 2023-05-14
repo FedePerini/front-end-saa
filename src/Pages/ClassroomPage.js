@@ -6,14 +6,18 @@ import SubHeader from '../Atoms/SubHeader'
 import { ClassroomSubject } from '../Molecules/ClassroomSubject'
 import "./ClassroomPage.css"
 import { Calendar } from '../Organisms/Calendar'
+import { ButtonsPack } from '../Organisms/ButtonsPack'
+import { useState } from 'react'
 
 export const ClassroomPage = () => {
+
+    const [usuario, setUsuario] = useState(true)
 
     return (
         <Flex className='pageContainer'>
             <Header></Header>
             <SubHeader urlImage={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIAGy7UNGNsc_U9rfL-szb-8p0W5MvVvVPdQ&usqp=CAU"} label={"AULA 1"}></SubHeader>
-
+            {usuario ? <ButtonsPack/> : null}
             <Flex className='classroomInfo'>
                 <Box>
                     <Text className='infoTitle'> Actualmente Cursando: </Text>
