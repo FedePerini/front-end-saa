@@ -6,7 +6,7 @@ import { Box, Flex } from '@chakra-ui/react'
 import PropTypes from 'prop-types'
 import "./SVGStyles.css"
 
-export const Tornavias1P = () => {
+export const Tornavias1P = (props) => {
 
     return (
         <svg
@@ -1019,6 +1019,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text718"
@@ -1044,6 +1047,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".24779"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text718-22"
@@ -1112,6 +1118,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text718-2"
@@ -1146,6 +1155,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             >
                 <title id="title738">LABORATORIO DE ELECTRONICA IV</title>
             </path>
@@ -1178,6 +1190,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text719-2"
@@ -1240,6 +1255,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text719-2-4-8"
@@ -1270,6 +1288,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text719-2-4-8-5"
@@ -1300,6 +1321,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text719-2-1"
@@ -1330,6 +1354,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text719-2-1-1"
@@ -1360,6 +1387,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text719-2-1-1-5"
@@ -1390,6 +1420,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth=".49558"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
             />
             <text
                 id="text719-2-1-1-5-4"
@@ -1421,6 +1454,9 @@ export const Tornavias1P = () => {
             stroke="#fff"
             strokeWidth="1.936"
             style={{ paintOrder: "stroke markers fill" }}
+            onClick={() => {
+                props.showCardFunc()
+              }}
             />
             <g id="g728">
             <title id="title728">AULA 33</title>
@@ -1433,6 +1469,9 @@ export const Tornavias1P = () => {
                 stroke="#fff"
                 strokeWidth="1.936"
                 style={{ paintOrder: "stroke markers fill" }}
+                onClick={() => {
+                    props.showCardFunc()
+                  }}
                 />
                 <text
                 id="text722"
@@ -1456,5 +1495,6 @@ export const Tornavias1P = () => {
 }
 
 Tornavias1P.propTypes = {
-    showCardFunc: PropTypes.func
+    showCardFunc: PropTypes.func,
+    setCardFunc: PropTypes.func
   }

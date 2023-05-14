@@ -20,6 +20,7 @@ import { buildingService } from '../Service/BuildingService'
 
 import "./UnsamMap.css"
 import { SubjectSearch } from './SubjectSearch'
+import { DeleteRouteCard } from '../Molecules/DeleteRouteCard'
 
 export const UnsamMap = () => {
 
@@ -48,8 +49,6 @@ export const UnsamMap = () => {
   useEffect(() => {
     getBuildings()
   },[])
-
-//########################################################################
 
   const getBuildings = async () => {
       const aux = await buildingService.getAllBuildings()
@@ -108,6 +107,7 @@ return (
           </Layers>
           <Controls>
             <SubjectSearch/>
+            <DeleteRouteCard/>
           </Controls>
       </Map>
     </div>

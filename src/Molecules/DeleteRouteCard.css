@@ -1,0 +1,8 @@
+.deleteRouteCard{
+    background-color: var(--clearColor);
+    z-index: 10;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    display: none;
+}
+

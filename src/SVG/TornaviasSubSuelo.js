@@ -6,7 +6,7 @@ import { Box, Flex } from '@chakra-ui/react'
 import PropTypes from 'prop-types'
 import "./SVGStyles.css"
 
-export const TornaviasSubSuelo = () => {
+export const TornaviasSubSuelo = (props) => {
 
     return (
 <svg
@@ -192,6 +192,9 @@ export const TornaviasSubSuelo = () => {
         stroke="#000"
         strokeWidth="1.2341"
         style={{ paintOrder: "stroke markers fill" }}
+        onClick={() => {
+          props.showCardFunc()
+        }}
       />
       <text
         id="text25"
@@ -225,6 +228,9 @@ export const TornaviasSubSuelo = () => {
         stroke="#000"
         strokeWidth="1.2341"
         style={{ paintOrder: "stroke markers fill" }}
+        onClick={() => {
+          props.showCardFunc()
+        }}
       />
       <text
         id="text25-9"
@@ -258,6 +264,9 @@ export const TornaviasSubSuelo = () => {
         stroke="#000"
         strokeWidth="1.2341"
         style={{ paintOrder: "stroke markers fill" }}
+        onClick={() => {
+          props.showCardFunc()
+        }}
       />
       <text
         id="text25-9-6"
@@ -291,6 +300,9 @@ export const TornaviasSubSuelo = () => {
         stroke="#000"
         strokeWidth="1.2341"
         style={{ paintOrder: "stroke markers fill" }}
+        onClick={() => {
+          props.showCardFunc()
+        }}
       />
       <text
         id="text25-9-6-2"
@@ -324,6 +336,9 @@ export const TornaviasSubSuelo = () => {
         stroke="#000"
         strokeWidth="1.2341"
         style={{ paintOrder: "stroke markers fill" }}
+        onClick={() => {
+          props.showCardFunc()
+        }}
       />
       <text
         id="text25-9-6-2-7"
@@ -582,5 +597,6 @@ export const TornaviasSubSuelo = () => {
 }
 
 TornaviasSubSuelo.propTypes = {
-  showCardFunc: PropTypes.func
+  showCardFunc: PropTypes.func,
+  setCardFunc: PropTypes.func
 }

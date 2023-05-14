@@ -22,23 +22,8 @@ export const SubjectSearchCard = (props) => {
     }
     
     const generateRoute = async () => {
-        const route = await routeService.getRoute()
-        const coordinates = []
-        route.forEach((it) => {
-            coordinates.push(polyline.decode(it.geometry).map(coords => [coords[1], coords[0]]))
-        }) 
-        
-        var routePoints = []
-        for (var i = 0; i < coordinates.flat().length; i++) {
-          var coord = fromLonLat(coordinates.flat()[i])
-          routePoints.push(coord)
-        }
-
-        var routeFeature = new Feature({
-            geometry: new LineString(routePoints)
-         })
-         map.getAllLayers()[1].getSource().addFeature(routeFeature)
-    }
+        await routeManager.generateRoute(map.getAllLayers()[1].getSource())
+}
 
     return(
         <Flex className='subjectSearchCard'>

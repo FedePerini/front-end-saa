@@ -17,8 +17,10 @@ export const BuildingPage = () => {
 
     const [active,setActive] = useState(false)
     const [level, setLevel] = useState(0)
-    const { id } = useParams()
     const [building, setBuilding] = useState({})
+    const [infoCardContent,setInfoCardContent] = useState({})
+    const { id } = useParams()
+    
 
     useEffect(() => {
         getBuilding(id)
@@ -52,7 +54,7 @@ export const BuildingPage = () => {
             <Flex className='mainSection'>
                 <SideBar></SideBar>
 
-                {(building.nombreSVG) && <BuildingMap SVGName={building.nombreSVG} showCardFunc={showCard} floorNumber={level} increaseFunc={increaseFloor} decreaseFunc={decreaseFloor}></BuildingMap>}
+                {(building.nombreSVG) && <BuildingMap setCardFunc={setInfoCardContent} SVGName={building.nombreSVG} showCardFunc={showCard} floorNumber={level} increaseFunc={increaseFloor} decreaseFunc={decreaseFloor}></BuildingMap>}
                 {(!building.nombreSVG) && <div> Cargando mapas... </div>}
             </Flex>
             

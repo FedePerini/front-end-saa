@@ -885,6 +885,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title173">AULA 14</title>
     </path>
@@ -919,6 +922,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title172">AULA 13</title>
     </path>
@@ -953,6 +959,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title177">AULA 17</title>
     </path>
@@ -987,6 +996,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title178">AULA 18</title>
     </path>
@@ -1021,6 +1033,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title184">AULA 21</title>
     </path>
@@ -1055,6 +1070,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title183">AULA 22</title>
     </path>
@@ -1089,6 +1107,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title182">AULA 23</title>
     </path>
@@ -1123,6 +1144,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title181">AULA 24</title>
     </path>
@@ -1157,6 +1181,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title179">AULA 19</title>
     </path>
@@ -1191,6 +1218,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title180">AULA 20</title>
     </path>
@@ -1225,6 +1255,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title176">AULA 16</title>
     </path>
@@ -1259,6 +1292,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title174">AULA 15</title>
     </path>
@@ -1294,6 +1330,9 @@ export const TornaviasPB = (props) => {
         stroke="#fff"
         strokeWidth=".13435"
         style={{ paintOrder: "stroke markers fill" }}
+        onClick={() => {
+          props.showCardFunc()
+        }}
       >
         <title id="title42">AULA 10</title>
       </path>
@@ -1329,6 +1368,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title41">AULA 9</title>
     </path>
@@ -1363,6 +1405,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title28">AULA 1</title>
     </path>
@@ -1397,6 +1442,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title30">AULA 2</title>
     </path>
@@ -1431,6 +1479,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title31">AULA 4</title>
     </path>
@@ -1465,6 +1516,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title32">AULA 5</title>
     </path>
@@ -1499,6 +1553,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title33">AULA 7</title>
     </path>
@@ -1533,6 +1590,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title40">AULA 8</title>
     </path>
@@ -1567,6 +1627,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title36">AULA 6</title>
     </path>
@@ -1601,6 +1664,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title35">AULA 6 BIS</title>
     </path>
@@ -1636,6 +1702,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth={0}
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title29">AULA 3</title>
     </path>
@@ -1670,6 +1739,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title171">AULA 12</title>
     </path>
@@ -1704,6 +1776,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title170">AULA 11</title>
     </path>
@@ -1738,6 +1813,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title49">Laboratorio de Computacion IV</title>
     </path>
@@ -1770,6 +1848,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title47">Laboratorio de Termodinamica</title>
     </path>
@@ -1802,6 +1883,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title46">Laboratorio de Electronica II</title>
     </path>
@@ -1834,6 +1918,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title45">Laboratorio de Neuroingenieria</title>
     </path>
@@ -1866,6 +1953,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title44">Laboratiorio de Biologia</title>
     </path>
@@ -1898,6 +1988,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title43">Laboratorio de Biologia</title>
     </path>
@@ -1930,6 +2023,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title34">Laboratorio de Quimica</title>
     </path>
@@ -1962,6 +2058,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title48">Laboratorio de Fisica</title>
     </path>
@@ -1994,6 +2093,9 @@ export const TornaviasPB = (props) => {
       stroke="#fff"
       strokeWidth=".13435"
       style={{ paintOrder: "stroke markers fill" }}
+      onClick={() => {
+        props.showCardFunc()
+      }}
     >
       <title id="title175">Ingenieria en Energia</title>
     </path>
@@ -2336,5 +2438,6 @@ export const TornaviasPB = (props) => {
 }
 
 TornaviasPB.propTypes = {
-  showCardFunc: PropTypes.func
+  showCardFunc: PropTypes.func,
+  setCardFunc: PropTypes.func
 }

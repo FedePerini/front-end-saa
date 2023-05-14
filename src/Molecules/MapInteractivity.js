@@ -5,13 +5,12 @@ import { Button, Flex } from "@chakra-ui/react"
 import MapContext from "../Utils/MapContext"
 import * as ol from "ol"
 import { routeService } from "../Service/RouteService"
-import Style from 'ol/style/Style'
-import Stroke from 'ol/style/Stroke'
 import { fromLonLat } from "ol/proj"
 import { LineString } from "ol/geom"
 import polyline from 'polyline-encoded'
 
 import "./MapInteractivity.css"
+import { routeManager } from "../Domain/RouteManager"
 
 export const MapInteractivity = () =>{
 
@@ -54,23 +53,8 @@ export const MapInteractivity = () =>{
     },[map])
 
     const generateRoute = async () => {
-        const route = await routeService.getRoute()
-        const coordinates = []
-        route.forEach((it) => {
-            coordinates.push(polyline.decode(it.geometry).map(coords => [coords[1], coords[0]]))
-        }) 
-        
-        var routePoints = []
-        for (var i = 0; i < coordinates.flat().length; i++) {
-          var coord = fromLonLat(coordinates.flat()[i])
-          routePoints.push(coord)
-        }
-
-        var routeFeature = new ol.Feature({
-            geometry: new LineString(routePoints)
-         })
-         map.getAllLayers()[1].getSource().addFeature(routeFeature)
-        }
+            await routeManager.generateRoute(map.getAllLayers()[1].getSource())
+    }
 
     return(
         <div ref={popupRef} className="ol-popup">
